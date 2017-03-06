@@ -1,0 +1,6 @@
+autocmd BufWritePost resume.xml call GeneratePDF()
+autocmd BufWritePost resume2fo.xsl call GeneratePDF()
+
+function GeneratePDF()
+  silent !fop -xml src/resume.xml -xsl src/xsl/resume2fo.xsl -pdf src/"Jonathan Zempel.pdf"
+endfunction
