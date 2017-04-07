@@ -7,6 +7,7 @@
   },
   "scripts": {
     "publish": "gh-pages -d src -b master",
-    "start": "live-server src"
+    "start": "live-server src",
+    "test": "true"
   }
 }
