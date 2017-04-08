@@ -14,14 +14,7 @@
 		doctype-system="about:legacy-compat" />
 	<xsl:param name="myLinks" />
 	<xsl:template match="resume:StructuredXMLResume">
-        <html lang="en">
-			<head>
-				<title>
-					<xsl:call-template name="getPersonName" />
-					<xsl:text>'s Resume</xsl:text>
-				</title>
-				<link rel="stylesheet" type="text/css" href="index.css" />
-			</head>
+    <html lang="en">
 			<body>
 				<div class="content">
 					<xsl:apply-templates select="resume:ContactInfo" />
@@ -35,8 +28,6 @@
 						<xsl:apply-templates select="resume:PatentHistory" />
 					</div>
 				</div>
-                <script>var _gaq = [["setAccount", "UA-10065875-1"], ["_trackPageview"]];</script>
-                <script async="async" src="//www.google-analytics.com/ga.js"></script>
 			</body>
 		</html>
 	</xsl:template>
@@ -125,11 +116,11 @@
 					<xsl:value-of select="resume:Degree/resume:DegreeMajor/resume:Name" />
 					<xsl:text>,&#x20;</xsl:text>
 					<xsl:value-of select="resume:SchoolName" />
-                    <xsl:if test="string-length(resume:Comments) > 0">
-                        <xsl:text>&#x20;(</xsl:text>
-                        <xsl:value-of select="resume:Comments" />
-                        <xsl:text>)</xsl:text>
-                    </xsl:if>
+            <xsl:if test="string-length(resume:Comments) > 0">
+              <xsl:text>&#x20;(</xsl:text>
+              <xsl:value-of select="resume:Comments" />
+              <xsl:text>)</xsl:text>
+            </xsl:if>
 					<xsl:text>,&#x20;</xsl:text>
 					<xsl:value-of select="resume:Degree/resume:DegreeDate/resume:Year" />
 				</div>
