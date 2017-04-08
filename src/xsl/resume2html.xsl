@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * resume2html.xml
- *
- * @since	Jul 02, 2007
- *
- * @author	jzempel
--->
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:resume="http://ns.hr-xml.org/2006-02-28"
 	exclude-result-prefixes="resume">
