@@ -1,721 +1,719 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--
- * resume.xml
- *
- * @since	May 26, 2007
- *
- * @author	jzempel
--->
 <Resume xmlns="http://ns.hr-xml.org/2006-02-28"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://ns.hr-xml.org/2006-02-28 http://ns.hr-xml.org/2_4/HR-XML-2_4/SEP/Resume.xsd">
-	<StructuredXMLResume>
-		<ContactInfo>
-			<PersonName>
-				<GivenName>Jonathan</GivenName>
-				<FamilyName>Zempel</FamilyName>
-			</PersonName>
-			<ContactMethod>
-				<Telephone>
-					<FormattedNumber>408.805.5044</FormattedNumber>
-				</Telephone>
-				<InternetEmailAddress>jzempel@gmail.com</InternetEmailAddress>
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://ns.hr-xml.org/2006-02-28 http://ns.hr-xml.org/2_4/HR-XML-2_4/SEP/Resume.xsd">
+  <StructuredXMLResume>
+    <ContactInfo>
+      <PersonName>
+        <GivenName>Jonathan</GivenName>
+        <FamilyName>Zempel</FamilyName>
+      </PersonName>
+      <ContactMethod>
+        <Telephone>
+          <FormattedNumber>408.805.5044</FormattedNumber>
+        </Telephone>
+        <InternetEmailAddress>jzempel@gmail.com</InternetEmailAddress>
         <InternetWebAddress>https://jzempel.github.io</InternetWebAddress>
-				<PostalAddress>
-					<CountryCode>US</CountryCode>
-					<PostalCode>95120</PostalCode>
-					<Region>CA</Region>
-					<Municipality>San Jose</Municipality>
-					<DeliveryAddress>
-						<AddressLine>6362 Desert Flame Dr.</AddressLine>
-					</DeliveryAddress>
-				</PostalAddress>
-			</ContactMethod>
-		</ContactInfo>
-		<ExecutiveSummary>
-            An accomplished semantic web developer, specializing in resource-oriented design and
-            analysis, application of pure RESTful patterns, robust micro-service architectures,
-			lean thinking, dedication to code construction styled for readability, and software
-			implementations tuned for performance. Repeatedly recognized for a broad range of
-			technical competence, an untiring dedication to mentoring and quality review, superb team
-			leadership ability, and a keen awareness for inventing flexible product solutions catered
-			to a wide variety of consumer demands.
-		</ExecutiveSummary>
+        <PostalAddress>
+          <CountryCode>US</CountryCode>
+          <PostalCode>95120</PostalCode>
+          <Region>CA</Region>
+          <Municipality>San Jose</Municipality>
+          <DeliveryAddress>
+            <AddressLine>6362 Desert Flame Dr.</AddressLine>
+          </DeliveryAddress>
+        </PostalAddress>
+      </ContactMethod>
+    </ContactInfo>
+    <ExecutiveSummary>
+      An accomplished semantic web developer, specializing in resource-oriented design and
+      analysis, application of pure RESTful patterns, robust micro-service architectures,
+      lean thinking, dedication to code construction styled for readability, and software
+      implementations tuned for performance. Repeatedly recognized for a broad range of
+      technical competence, an untiring dedication to mentoring and quality review, superb team
+      leadership ability, and a keen awareness for inventing flexible product solutions catered
+      to a wide variety of consumer demands.
+    </ExecutiveSummary>
+    <Comments>
+    </Comments>
+    <Objective>
+      Lead the design and implementation effort for a RESTful service API supporting a
+      cutting-edge semantic web application.
+    </Objective>
+    <EmploymentHistory>
+      <EmployerOrg>
+        <EmployerOrgName>Zendesk, Inc.</EmployerOrgName>
+        <EmployerContactInfo>
+          <ContactMethod>
+            <PostalAddress>
+              <CountryCode>US</CountryCode>
+              <PostalCode>94103</PostalCode>
+              <Region>CA</Region>
+              <Municipality>San Francisco</Municipality>
+              <DeliveryAddress>
+                <AddressLine>989 Market St</AddressLine>
+              </DeliveryAddress>
+            </PostalAddress>
+          </ContactMethod>
+        </EmployerContactInfo>
+        <PositionHistory>
+            <Title>Principal Engineer</Title>
+            <OrgName>
+              <OrganizationName />
+            </OrgName>
+            <Description>
+              Member of the illustrious Creative Team where I manage a
+              tight-knit design &amp; development team responsible for
+              producing a system of shared components for providing common UI
+              across the suite of Zendesk products.
+            </Description>
+            <StartDate>
+              <YearMonth>2014-04</YearMonth>
+            </StartDate>
+            <Competency
+              description="Created Project: Garden (React + OOCSS) - Zendesk's cross-product web component library" />
+            <Competency
+              description="Organized Electroid (Sketch) – the design system that informs Garden" />
+            <Competency
+              description="Built internal TV application (Rails 4) used to broadcast worldwide company news and information" />
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Pickwick &amp; Weller</EmployerOrgName>
+        <EmployerContactInfo>
+          <ContactMethod>
+            <PostalAddress>
+              <CountryCode>US</CountryCode>
+              <PostalCode>94107</PostalCode>
+              <Region>CA</Region>
+              <Municipality>San Francisco</Municipality>
+              <DeliveryAddress>
+                <AddressLine>300 Brannan St</AddressLine>
+              </DeliveryAddress>
+            </PostalAddress>
+          </ContactMethod>
+        </EmployerContactInfo>
+        <PositionHistory>
+          <Title>Developer</Title>
+          <OrgName>
+            <OrganizationName />
+          </OrgName>
+          <Description>
+            Worked with a crack startup team in the fashion space where I obsessed over
+            the design and construction of beautiful, pixel-perfect service APIs and
+            elegant, opinionated web and mobile UIs.
+          </Description>
+          <StartDate>
+            <YearMonth>2012-08</YearMonth>
+          </StartDate>
+          <EndDate>
+            <YearMonth>2014-04</YearMonth>
+          </EndDate>
+          <Competency
+            description="Leveraged jQM to create the entire mobile web experience" />
+          <Competency
+            description="Implemented redesign of the majority of the e-commerce site" />
+          <Competency
+            description="Shifted the development team from manual to a continuous deployment strategy" />
+          <Competency
+            description="Injected a custom CMS implementation used to serve user-generated content throughout the website" />
+          <Competency
+            description="Periodic ownership of social marketing campaigns" />
+          <Competency
+            description="Initiated the development of an internal graphical dashboard used to monitor sales and inventory" />
+          <Competency
+            description="Authored open-sourced Stamps.com and Fedex shipping APIs implemented for order fulfillment" />
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Genomera, Inc.</EmployerOrgName>
+        <EmployerContactInfo>
+          <ContactMethod>
+            <PostalAddress>
+              <CountryCode>US</CountryCode>
+              <PostalCode>94304</PostalCode>
+              <Region>CA</Region>
+              <Municipality>Palo Alto</Municipality>
+              <DeliveryAddress>
+                <AddressLine>3340 Hillview Ave</AddressLine>
+              </DeliveryAddress>
+            </PostalAddress>
+          </ContactMethod>
+        </EmployerContactInfo>
+        <PositionHistory>
+          <Title>Architect</Title>
+          <OrgName>
+            <OrganizationName />
+          </OrgName>
+          <Description>
+            Responsible for the inception of an internet-scale, social application
+            designed to modernize clinical trials - helping people use information about
+            their DNA to answer health questions. Successfully combined lean startup
+            techniques with agile development practices inside a swift moving, "fail fast"
+            entrepreneurial environment.
+          </Description>
+          <StartDate>
+            <YearMonth>2010-02</YearMonth>
+          </StartDate>
+          <EndDate>
+            <YearMonth>2012-08</YearMonth>
+          </EndDate>
+          <Competency
+            description="Built the entire website based on a HTML5+CSS+JavaScript, Python, and MongoDB stack" />
+          <Competency
+            description="Deployed to production multiple times per day, starting from day one" />
+          <Competency
+            description="Worked with the product team to implement a full site re-design" />
+          <Competency
+            description="Conducted numerous interviews to better understand application user delight and frustration" />
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>IBM Corporation</EmployerOrgName>
+        <EmployerContactInfo>
+          <ContactMethod>
+            <PostalAddress>
+              <CountryCode>US</CountryCode>
+              <PostalCode>95134</PostalCode>
+              <Region>CA</Region>
+              <Municipality>San Jose</Municipality>
+              <DeliveryAddress>
+                <AddressLine>4400 North 1st Street</AddressLine>
+              </DeliveryAddress>
+            </PostalAddress>
+          </ContactMethod>
+        </EmployerContactInfo>
+        <PositionHistory>
+          <Title>Principal Software Engineer</Title>
+          <OrgName>
+            <OrganizationName>Software Group</OrganizationName>
+          </OrgName>
+          <Description>
+            Lead developer for the student delivery module of IBM's J2EE eLearning
+            application. Responsible for designing, prototyping, developing, and testing
+            component solutions that contribute to the overall eLearning product
+            architecture. Recognized as a subject matter expert in eLearning development
+            and frequently called on to assist in determining the product direction.
+            Repeatedly demonstrating success in directing a engineering teams to achieve
+            milestone goals - providing core functionality at every application tier.
+            Valued for meticulous attention to the usability, scalability, and
+            performance demands imposed by enterprise software that must cater to
+            thousands of concurrent users.
+          </Description>
+          <StartDate>
+            <YearMonth>1999-09</YearMonth>
+          </StartDate>
+          <EndDate>
+            <YearMonth>2010-02</YearMonth>
+          </EndDate>
+          <Competency
+            description="Designed and built a delivery subsystem that encapsulated strict conformance requirements for key eLearning standards" />
+          <Competency
+            description="Contributing member in AICC, ADL, and IMS eLearning standards bodies" />
+          <Competency
+            description="Recognized as an industry authority for learner run-time progress and interaction tracking implementations" />
+          <Competency
+            description="Well-versed in the application of GoF Design and Core J2EE Pattern strategies to the problems inherent in web-based architectures" />
+          <Competency
+            description="Shipped three major product releases along with numerous maintenance releases" />
+          <Competency
+            description="Developed business and presentation tier reference components, used as the foundational patterns for all components developed for the application" />
+          <Competency
+            description="Worked with globally distributed development teams to ship application solutions designed to be localized for nearly thirty languages" />
+          <Competency
+            description="Lead, mentored, and contributed to remote development teams based in both Boston and Ireland" />
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Macromedia, Inc.</EmployerOrgName>
+        <EmployerContactInfo>
+          <ContactMethod>
+            <PostalAddress>
+              <CountryCode>US</CountryCode>
+              <PostalCode>94065</PostalCode>
+              <Region>CA</Region>
+              <Municipality>Redwood City</Municipality>
+              <DeliveryAddress>
+                <AddressLine>101 Redwood Shores Parkway</AddressLine>
+              </DeliveryAddress>
+            </PostalAddress>
+          </ContactMethod>
+        </EmployerContactInfo>
+        <PositionHistory>
+          <Title>Sr. Software Engineer</Title>
+          <OrgName>
+            <OrganizationName>eLearning Solutions</OrganizationName>
+          </OrgName>
+          <Description>
+            Ported the eLearning system, developed at Solis, to a Java/ASP web
+            application. Served as an application developer across several project
+            teams. Repeatedly recognized as a key contributor. Selected as one of three
+            engineers to transition with the project acquisition to IBM.
+          </Description>
+          <StartDate>
+            <YearMonth>1997-10</YearMonth>
+          </StartDate>
+          <EndDate>
+            <YearMonth>1999-09</YearMonth>
+          </EndDate>
+          <Competency description="Designed and developed Java-based business objects" />
+          <Competency description="Demonstrated RDBMS schema design and SQL expertise" />
+          <Competency
+            description="Engineered a course outline assembly module for the eLearning management system" />
+          <Competency
+            description="Prototyped an assessment engine designed to model standard pedagogical testing patterns" />
+          <Competency
+            description="Modeled and developed APIs for a sophisticated event-based product extension infrastructure" />
+          <Competency description="Deployed web applications in an IIS/ASP environment" />
+          <Competency
+            description="Collected and authored definitive coding standards used by the eLearning development group" />
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Solis Design, Inc.</EmployerOrgName>
+        <EmployerContactInfo>
+          <ContactMethod>
+            <PostalAddress>
+              <CountryCode>US</CountryCode>
+              <PostalCode>54016</PostalCode>
+              <Region>WI</Region>
+              <Municipality>Hudson</Municipality>
+              <DeliveryAddress>
+                <AddressLine>509 2nd St.</AddressLine>
+                <AddressLine>Suite 200</AddressLine>
+              </DeliveryAddress>
+            </PostalAddress>
+          </ContactMethod>
+        </EmployerContactInfo>
+        <PositionHistory>
+          <Title>Software Engineer</Title>
+          <OrgName>
+            <OrganizationName />
+          </OrgName>
+          <Description>
+            Responsible for the design and development of eLearning management software
+            and product installation. Skilled in testing and installing
+            industry-standard server databases. Relocated to the Bay Area as part of the
+            Macromedia acquisition of Solis.
+          </Description>
+          <StartDate>
+            <YearMonth>1997-06</YearMonth>
+          </StartDate>
+          <EndDate>
+            <YearMonth>1997-10</YearMonth>
+          </EndDate>
+          <Competency description="Automated desktop to server database conversions" />
+          <Competency
+            description="Designed and authored both LAN and web-based product installation scripts" />
+          <Competency
+            description="Provided on-site customer deployment and training" />
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>World Class Promotions, Inc.</EmployerOrgName>
+        <EmployerContactInfo>
+          <ContactMethod>
+            <PostalAddress>
+              <CountryCode>US</CountryCode>
+              <PostalCode>91311</PostalCode>
+              <Region>CA</Region>
+              <Municipality>Chatsworth</Municipality>
+              <DeliveryAddress>
+                <AddressLine>21935 Plummer St.</AddressLine>
+              </DeliveryAddress>
+            </PostalAddress>
+          </ContactMethod>
+        </EmployerContactInfo>
+        <PositionHistory>
+          <Title>Systems Programmer</Title>
+          <OrgName>
+            <OrganizationName>Information Technology</OrganizationName>
+          </OrgName>
+          <Description>
+            Provided the strategic direction of workplace technology. Implemented new
+            technology to improve business productivity and customer service.
+          </Description>
+          <StartDate>
+            <YearMonth>1995-06</YearMonth>
+          </StartDate>
+          <EndDate>
+            <YearMonth>1997-05</YearMonth>
+          </EndDate>
+          <Competency
+            description="Administered local-area network (Novell), electronic mail (GroupWise), and telecommunications (Intertel PBX/Voice Mail) servers" />
+          <Competency
+            description="Managed and maintained technology assets for California, Dallas, and Hong Kong offices" />
+          <Competency description="Developed warehouse fulfillment automation software" />
+          <Competency
+            description="Provided technical support for local, remote, and mobile employees" />
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>IBANK Systems, Inc.</EmployerOrgName>
+        <EmployerContactInfo>
+          <ContactMethod>
+            <PostalAddress>
+              <CountryCode>US</CountryCode>
+              <Region>SC</Region>
+              <Municipality>Greenville</Municipality>
+            </PostalAddress>
+          </ContactMethod>
+        </EmployerContactInfo>
+        <PositionHistory>
+          <Title>Programmer</Title>
+          <OrgName>
+            <OrganizationName />
+          </OrgName>
+          <Description>
+            Involved in the design and testing of international banking software.
+            Provided support for a home banking expansion product.
+          </Description>
+          <StartDate>
+            <YearMonth>1994-09</YearMonth>
+          </StartDate>
+          <EndDate>
+            <YearMonth>1995-05</YearMonth>
+          </EndDate>
+          <Competency description="COBOL language testing and debugging" />
+          <Competency description="Visual Basic program design" />
+        </PositionHistory>
+      </EmployerOrg>
+    </EmploymentHistory>
+    <EducationHistory>
+      <SchoolOrInstitution schoolType="University">
+        <SchoolName>Bob Jones University</SchoolName>
+        <Degree degreeType="bachelors">
+          <DegreeName>Bachelors of Science</DegreeName>
+          <DegreeDate>
+            <Year>1995</Year>
+          </DegreeDate>
+          <DegreeMajor>
+            <Name>Computer Science</Name>
+          </DegreeMajor>
+          <DegreeMinor>
+            <Name>Math</Name>
+          </DegreeMinor>
+          <DegreeMeasure>
+            <EducationalMeasure>
+              <MeasureSystem>GPA</MeasureSystem>
+              <MeasureValue>
+                <NumericValue>3.0</NumericValue>
+              </MeasureValue>
+            </EducationalMeasure>
+          </DegreeMeasure>
+        </Degree>
+        <Comments>ask me over beers if you must</Comments>
+      </SchoolOrInstitution>
+    </EducationHistory>
+    <PatentHistory>
+      <Patent>
+        <PatentTitle>
+          Branched Rollup of Learning Objects with Shared Competencies
+        </PatentTitle>
+        <Description>
+          Branched rollup was implemented as an enhancement to a more generic activity
+          tree sequencing and rollup framework based on the information and behavior
+          models defined in the IMS Simple Sequencing specification. Before the overall
+          rollup process begins, a RollupContext is created. The RollupContext is
+          responsible for determining the next activity tree node to be evaluated in the
+          rollup process. The rollup process does not depend on the order of node
+          evaluation, so different implementations of RollupContext can use different
+          algorithms for ordering the nodes for rollup. The enhanced BranchedRollupContext
+          replaces the standard RollupContext within an implementation, and handles the
+          branched rollup using a two-phase approach to identify: 1) a list of rollup
+          branch nodes, and 2) a set of control blocks for each node that defines which
+          branches affect that node. This information is consulted during the rollup
+          process to prevent repeated rollup of any of the nodes within the activity tree.
+        </Description>
+        <Inventors>
+          <InventorName>Thomas J. Dinger</InventorName>
+          <InventorName>Jonathan T. Zempel</InventorName>
+        </Inventors>
+        <PatentDetail>
+          <IssuingAuthority countryCode="US">
+            US Patent and Trademark Office
+          </IssuingAuthority>
+          <PatentMilestone>
+            <Id>20050112530</Id>
+            <Status>PatentPending</Status>
+            <Date>2005-05-26</Date>
+          </PatentMilestone>
+          <PatentMilestone>
+            <Id>10-721630</Id>
+            <Status>PatentFiled</Status>
+            <Date>2003-11-25</Date>
+          </PatentMilestone>
+        </PatentDetail>
+        <Link>http://www.delphion.com/details?pn=US25112530A1</Link>
+      </Patent>
+      <Patent>
+        <PatentTitle>Pluggable eLearning Tracking Component</PatentTitle>
+        <Description>
+          The component described by this invention provides support for prevalent
+          eLearning progress tracking standards. While progress tracking components are
+          common to the learning management system (LMS) vendor community, it is not
+          imperative that standards-based tracking be applied specifically to a LMS
+          environment. Unlike existing tracking solutions, the eLearning Tracking
+          Component provides an abstraction, whereby complex run-time progress tracking
+          capabilities can be applied to any software application. This invention exposes
+          the advantage of applying progress tracking to a range of industries beyond
+          eLearning.
+        </Description>
+        <Inventors>
+          <InventorName>Jonathan T. Zempel</InventorName>
+        </Inventors>
+        <PatentDetail>
+          <IssuingAuthority countryCode="US">
+            US Patent and Trademark Office
+          </IssuingAuthority>
+          <PatentMilestone>
+            <Id>20050132330</Id>
+            <Status>PatentPending</Status>
+            <Date>2005-06-16</Date>
+          </PatentMilestone>
+          <PatentMilestone>
+            <Id>10-734038</Id>
+            <Status>PatentFiled</Status>
+            <Date>2003-12-11</Date>
+          </PatentMilestone>
+        </PatentDetail>
+        <Link>http://www.delphion.com/details?pn=US25132330A1</Link>
+      </Patent>
+      <Patent>
+        <PatentTitle>Pluggable eLearning Sequencing Engine</PatentTitle>
+        <Description>
+          The basis for this invention is a module that implements the core logic for all
+          of the static concepts surfaced within the Behavior Model of the IMS Simple
+          Sequencing specification. These include a definition of the sequencing
+          components, the logic for the overall sequencing process (or "sequencing loop"),
+          and the algorithms used to determine the path through the sequencing process
+          (based on navigation, sequencing control modes, limit conditions, sequencing
+          rules, and rollup rules). This invention has the advantage of encapsulating the
+          core business logic for sequencing while leaving application-specific aspects
+          open for reimplementation or extension.
+        </Description>
+        <Inventors>
+          <InventorName>Thomas J. Dinger</InventorName>
+          <InventorName>Jonathan T. Zempel</InventorName>
+        </Inventors>
+        <PatentDetail>
+          <IssuingAuthority countryCode="US">
+            US Patent and Trademark Office
+          </IssuingAuthority>
+          <PatentMilestone>
+            <Id>20050136383</Id>
+            <Status>PatentPending</Status>
+            <Date>2005-06-23</Date>
+          </PatentMilestone>
+          <PatentMilestone>
+            <Id>10-738829</Id>
+            <Status>PatentFiled</Status>
+            <Date>2003-12-17</Date>
+          </PatentMilestone>
+        </PatentDetail>
+        <Link>http://www.delphion.com/details?pn=US25136383A1</Link>
+      </Patent>
+      <Patent>
+        <PatentTitle>Personalized Distribution of Learning Content</PatentTitle>
+        <Description>
+          A method of operating a content management system, accessing user information,
+          and transmitting the content from the central repository to one or more content
+          servers based on the relevance of the learning content to a user population.
+        </Description>
+        <Inventors>
+          <InventorName>Thomas J. Dinger</InventorName>
+          <InventorName>Jonathan T. Zempel</InventorName>
+          <InventorName>Hussam Eid</InventorName>
+        </Inventors>
+        <PatentDetail>
+          <IssuingAuthority countryCode="US">
+            US Patent and Trademark Office
+          </IssuingAuthority>
+          <PatentMilestone>
+            <Id>20070067306</Id>
+            <Status>PatentPending</Status>
+            <Date>2007-03-22</Date>
+          </PatentMilestone>
+          <PatentMilestone>
+            <Id>11-428333</Id>
+            <Status>PatentFiled</Status>
+            <Date>2006-06-30</Date>
+          </PatentMilestone>
+        </PatentDetail>
+        <Link>http://www.delphion.com/details?pn=US27067306A1</Link>
+      </Patent>
+      <Patent>
+        <PatentTitle>
+          Component-based Distributed Learning Management Architecture
+        </PatentTitle>
+        <Description>
+          This invention provides a distributed learning management architecture that is
+          "componentized" for increased scalability. Specifically, the present invention
+          provides an architecture in which multiple content servers, delivery servers
+          and/or live session servers can be provided to accommodate multiple geographic
+          locations.
+        </Description>
+        <Inventors>
+          <InventorName>Thomas J. Dinger</InventorName>
+          <InventorName>Christopher A. Hyland</InventorName>
+          <InventorName>David B. Millen</InventorName>
+          <InventorName>Charles de Saint-Aignan</InventorName>
+          <InventorName>Fernando Salazar</InventorName>
+          <InventorName>Jonathan T. Zempel</InventorName>
+        </Inventors>
+        <PatentDetail>
+          <IssuingAuthority countryCode="US">
+            US Patent and Trademark Office
+          </IssuingAuthority>
+          <PatentMilestone>
+            <Id>20080318201</Id>
+            <Status>PatentPending</Status>
+            <Date>2008-12-25</Date>
+          </PatentMilestone>
+          <PatentMilestone>
+            <Id>12-192725</Id>
+            <Status>PatentFiled</Status>
+            <Date>2008-08-15</Date>
+          </PatentMilestone>
+          <PatentMilestone>
+            <Id>20050132294</Id>
+            <Status>PatentPending</Status>
+            <Date>2005-06-16</Date>
+          </PatentMilestone>
+          <PatentMilestone>
+            <Id>10-737340</Id>
+            <Status>PatentFiled</Status>
+            <Date>2003-12-16</Date>
+          </PatentMilestone>
+        </PatentDetail>
+        <Link>http://www.delphion.com/details?pn=US28318201A1</Link>
+      </Patent>
+    </PatentHistory>
+    <PublicationHistory>
+      <OtherPublication>
+        <Title>AICC: CMI Guidelines for Interoperability</Title>
+        <Name role="contributor" />
+        <PublicationDate>
+          <AnyDate>2004-08-16</AnyDate>
+        </PublicationDate>
+        <Link>http://www.aicc.org/docs/tech/cmi001v4.pdf</Link>
         <Comments>
+          Provided review and feedback as a qualified implementer of previous AICC
+          interoperability specifications of computer-managed instruction systems for both
+          file-based and web-based environments.
         </Comments>
-		<Objective>
-			Lead the design and implementation effort for a RESTful service API supporting a
-			cutting-edge semantic web application.
-		</Objective>
-		<EmploymentHistory>
-            <EmployerOrg>
-                <EmployerOrgName>Zendesk, Inc.</EmployerOrgName>
-                <EmployerContactInfo>
-                    <ContactMethod>
-                        <PostalAddress>
-                            <CountryCode>US</CountryCode>
-                            <PostalCode>94103</PostalCode>
-                            <Region>CA</Region>
-                            <Municipality>San Francisco</Municipality>
-                            <DeliveryAddress>
-                                <AddressLine>989 Market St</AddressLine>
-                            </DeliveryAddress>
-                        </PostalAddress>
-                    </ContactMethod>
-                </EmployerContactInfo>
-                <PositionHistory>
-                    <Title>Sr. Software Engineer</Title>
-                    <OrgName>
-                        <OrganizationName />
-                    </OrgName>
-                    <Description>
-                        Member of the illustrious Creative Team.
-                    </Description>
-					<StartDate>
-						<YearMonth>2014-04</YearMonth>
-					</StartDate>
-                    <Competency
-                        description="Built internal TV application (Rails 4) used to broadcast worldwide company news and information" />
-                    <Competency
-                        description="Created Project: Garden (Ember + Rails) - a place for developing cross-application web components" />
-                </PositionHistory>
-            </EmployerOrg>
-            <EmployerOrg>
-                <EmployerOrgName>Pickwick &amp; Weller</EmployerOrgName>
-                <EmployerContactInfo>
-                    <ContactMethod>
-                        <PostalAddress>
-                            <CountryCode>US</CountryCode>
-                            <PostalCode>94107</PostalCode>
-                            <Region>CA</Region>
-                            <Municipality>San Francisco</Municipality>
-                            <DeliveryAddress>
-                                <AddressLine>300 Brannan St</AddressLine>
-                            </DeliveryAddress>
-                        </PostalAddress>
-                    </ContactMethod>
-                </EmployerContactInfo>
-                <PositionHistory>
-                    <Title>Developer</Title>
-                    <OrgName>
-                        <OrganizationName />
-                    </OrgName>
-                    <Description>
-                        Worked with a crack startup team in the fashion space where I obsessed over
-                        the design and construction of beautiful, pixel-perfect service APIs and
-                        elegant, opinionated web and mobile UIs.
-                    </Description>
-					<StartDate>
-						<YearMonth>2012-08</YearMonth>
-					</StartDate>
-					<EndDate>
-						<YearMonth>2014-04</YearMonth>
-					</EndDate>
-                    <Competency
-                        description="Leveraged jQM to create the entire mobile web experience" />
-                    <Competency
-                        description="Implemented redesign of the majority of the e-commerce site" />
-                    <Competency
-                        description="Shifted the development team from manual to a continuous deployment strategy" />
-                    <Competency
-                        description="Injected a custom CMS implementation used to serve user-generated content throughout the website" />
-                    <Competency
-                        description="Periodic ownership of social marketing campaigns" />
-                    <Competency
-                        description="Initiated the development of an internal graphical dashboard used to monitor sales and inventory" />
-                    <Competency
-                        description="Authored open-sourced Stamps.com and Fedex shipping APIs implemented for order fulfillment" />
-                </PositionHistory>
-            </EmployerOrg>
-			<EmployerOrg>
-				<EmployerOrgName>Genomera, Inc.</EmployerOrgName>
-				<EmployerContactInfo>
-					<ContactMethod>
-						<PostalAddress>
-							<CountryCode>US</CountryCode>
-							<PostalCode>94304</PostalCode>
-							<Region>CA</Region>
-							<Municipality>Palo Alto</Municipality>
-							<DeliveryAddress>
-								<AddressLine>3340 Hillview Ave</AddressLine>
-							</DeliveryAddress>
-						</PostalAddress>
-					</ContactMethod>
-				</EmployerContactInfo>
-				<PositionHistory>
-					<Title>Architect</Title>
-					<OrgName>
-						<OrganizationName />
-					</OrgName>
-					<Description>
-						Responsible for the inception of an internet-scale, social application
-                        designed to modernize clinical trials - helping people use information about
-                        their DNA to answer health questions. Successfully combined lean startup
-                        techniques with agile development practices inside a swift moving, "fail fast"
-                        entrepreneurial environment.
-					</Description>
-					<StartDate>
-						<YearMonth>2010-02</YearMonth>
-					</StartDate>
-					<EndDate>
-						<YearMonth>2012-08</YearMonth>
-					</EndDate>
-                    <Competency
-                        description="Built the entire website based on a HTML5+CSS+JavaScript, Python, and MongoDB stack" />
-                    <Competency
-                        description="Deployed to production multiple times per day, starting from day one" />
-                    <Competency
-                        description="Worked with the product team to implement a full site re-design" />
-                    <Competency
-                        description="Conducted numerous interviews to better understand application user delight and frustration" />
-				</PositionHistory>
-			</EmployerOrg>
-			<EmployerOrg>
-				<EmployerOrgName>IBM Corporation</EmployerOrgName>
-				<EmployerContactInfo>
-					<ContactMethod>
-						<PostalAddress>
-							<CountryCode>US</CountryCode>
-							<PostalCode>95134</PostalCode>
-							<Region>CA</Region>
-							<Municipality>San Jose</Municipality>
-							<DeliveryAddress>
-								<AddressLine>4400 North 1st Street</AddressLine>
-							</DeliveryAddress>
-						</PostalAddress>
-					</ContactMethod>
-				</EmployerContactInfo>
-				<PositionHistory>
-					<Title>Principal Software Engineer</Title>
-					<OrgName>
-						<OrganizationName>Software Group</OrganizationName>
-					</OrgName>
-					<Description>
-						Lead developer for the student delivery module of IBM's J2EE eLearning
-						application. Responsible for designing, prototyping, developing, and testing
-						component solutions that contribute to the overall eLearning product
-						architecture. Recognized as a subject matter expert in eLearning development
-						and frequently called on to assist in determining the product direction.
-						Repeatedly demonstrating success in directing a engineering teams to achieve
-						milestone goals - providing core functionality at every application tier.
-						Valued for meticulous attention to the usability, scalability, and
-						performance demands imposed by enterprise software that must cater to
-						thousands of concurrent users.
-					</Description>
-					<StartDate>
-						<YearMonth>1999-09</YearMonth>
-					</StartDate>
-					<EndDate>
-						<YearMonth>2010-02</YearMonth>
-					</EndDate>
-					<Competency
-						description="Designed and built a delivery subsystem that encapsulated strict conformance requirements for key eLearning standards" />
-					<Competency
-						description="Contributing member in AICC, ADL, and IMS eLearning standards bodies" />
-					<Competency
-						description="Recognized as an industry authority for learner run-time progress and interaction tracking implementations" />
-					<Competency
-						description="Well-versed in the application of GoF Design and Core J2EE Pattern strategies to the problems inherent in web-based architectures" />
-					<Competency
-						description="Shipped three major product releases along with numerous maintenance releases" />
-					<Competency
-						description="Developed business and presentation tier reference components, used as the foundational patterns for all components developed for the application" />
-					<Competency
-						description="Worked with globally distributed development teams to ship application solutions designed to be localized for nearly thirty languages" />
-					<Competency
-						description="Lead, mentored, and contributed to remote development teams based in both Boston and Ireland" />
-				</PositionHistory>
-			</EmployerOrg>
-			<EmployerOrg>
-				<EmployerOrgName>Macromedia, Inc.</EmployerOrgName>
-				<EmployerContactInfo>
-					<ContactMethod>
-						<PostalAddress>
-							<CountryCode>US</CountryCode>
-							<PostalCode>94065</PostalCode>
-							<Region>CA</Region>
-							<Municipality>Redwood City</Municipality>
-							<DeliveryAddress>
-								<AddressLine>101 Redwood Shores Parkway</AddressLine>
-							</DeliveryAddress>
-						</PostalAddress>
-					</ContactMethod>
-				</EmployerContactInfo>
-				<PositionHistory>
-					<Title>Sr. Software Engineer</Title>
-					<OrgName>
-						<OrganizationName>eLearning Solutions</OrganizationName>
-					</OrgName>
-					<Description>
-						Ported the eLearning system, developed at Solis, to a Java/ASP web
-						application. Served as an application developer across several project
-						teams. Repeatedly recognized as a key contributor. Selected as one of three
-						engineers to transition with the project acquisition to IBM.
-					</Description>
-					<StartDate>
-						<YearMonth>1997-10</YearMonth>
-					</StartDate>
-					<EndDate>
-						<YearMonth>1999-09</YearMonth>
-					</EndDate>
-					<Competency description="Designed and developed Java-based business objects" />
-					<Competency description="Demonstrated RDBMS schema design and SQL expertise" />
-					<Competency
-						description="Engineered a course outline assembly module for the eLearning management system" />
-					<Competency
-						description="Prototyped an assessment engine designed to model standard pedagogical testing patterns" />
-					<Competency
-						description="Modeled and developed APIs for a sophisticated event-based product extension infrastructure" />
-					<Competency description="Deployed web applications in an IIS/ASP environment" />
-					<Competency
-						description="Collected and authored definitive coding standards used by the eLearning development group" />
-				</PositionHistory>
-			</EmployerOrg>
-			<EmployerOrg>
-				<EmployerOrgName>Solis Design, Inc.</EmployerOrgName>
-				<EmployerContactInfo>
-					<ContactMethod>
-						<PostalAddress>
-							<CountryCode>US</CountryCode>
-							<PostalCode>54016</PostalCode>
-							<Region>WI</Region>
-							<Municipality>Hudson</Municipality>
-							<DeliveryAddress>
-								<AddressLine>509 2nd St.</AddressLine>
-								<AddressLine>Suite 200</AddressLine>
-							</DeliveryAddress>
-						</PostalAddress>
-					</ContactMethod>
-				</EmployerContactInfo>
-				<PositionHistory>
-					<Title>Software Engineer</Title>
-					<OrgName>
-						<OrganizationName />
-					</OrgName>
-					<Description>
-						Responsible for the design and development of eLearning management software
-						and product installation. Skilled in testing and installing
-						industry-standard server databases. Relocated to the Bay Area as part of the
-						Macromedia acquisition of Solis.
-					</Description>
-					<StartDate>
-						<YearMonth>1997-06</YearMonth>
-					</StartDate>
-					<EndDate>
-						<YearMonth>1997-10</YearMonth>
-					</EndDate>
-					<Competency description="Automated desktop to server database conversions" />
-					<Competency
-						description="Designed and authored both LAN and web-based product installation scripts" />
-					<Competency
-						description="Provided on-site customer deployment and training" />
-				</PositionHistory>
-			</EmployerOrg>
-			<EmployerOrg>
-				<EmployerOrgName>World Class Promotions, Inc.</EmployerOrgName>
-				<EmployerContactInfo>
-					<ContactMethod>
-						<PostalAddress>
-							<CountryCode>US</CountryCode>
-							<PostalCode>91311</PostalCode>
-							<Region>CA</Region>
-							<Municipality>Chatsworth</Municipality>
-							<DeliveryAddress>
-								<AddressLine>21935 Plummer St.</AddressLine>
-							</DeliveryAddress>
-						</PostalAddress>
-					</ContactMethod>
-				</EmployerContactInfo>
-				<PositionHistory>
-					<Title>Systems Programmer</Title>
-					<OrgName>
-						<OrganizationName>Information Technology</OrganizationName>
-					</OrgName>
-					<Description>
-						Provided the strategic direction of workplace technology. Implemented new
-						technology to improve business productivity and customer service.
-					</Description>
-					<StartDate>
-						<YearMonth>1995-06</YearMonth>
-					</StartDate>
-					<EndDate>
-						<YearMonth>1997-05</YearMonth>
-					</EndDate>
-					<Competency
-						description="Administered local-area network (Novell), electronic mail (GroupWise), and telecommunications (Intertel PBX/Voice Mail) servers" />
-					<Competency
-						description="Managed and maintained technology assets for California, Dallas, and Hong Kong offices" />
-					<Competency description="Developed warehouse fulfillment automation software" />
-					<Competency
-						description="Provided technical support for local, remote, and mobile employees" />
-				</PositionHistory>
-			</EmployerOrg>
-			<EmployerOrg>
-				<EmployerOrgName>IBANK Systems, Inc.</EmployerOrgName>
-				<EmployerContactInfo>
-					<ContactMethod>
-						<PostalAddress>
-							<CountryCode>US</CountryCode>
-							<Region>SC</Region>
-							<Municipality>Greenville</Municipality>
-						</PostalAddress>
-					</ContactMethod>
-				</EmployerContactInfo>
-				<PositionHistory>
-					<Title>Programmer</Title>
-					<OrgName>
-						<OrganizationName />
-					</OrgName>
-					<Description>
-						Involved in the design and testing of international banking software.
-						Provided support for a home banking expansion product.
-					</Description>
-					<StartDate>
-						<YearMonth>1994-09</YearMonth>
-					</StartDate>
-					<EndDate>
-						<YearMonth>1995-05</YearMonth>
-					</EndDate>
-					<Competency description="COBOL language testing and debugging" />
-					<Competency description="Visual Basic program design" />
-				</PositionHistory>
-			</EmployerOrg>
-		</EmploymentHistory>
-		<EducationHistory>
-			<SchoolOrInstitution schoolType="University">
-				<SchoolName>Bob Jones University</SchoolName>
-				<Degree degreeType="bachelors">
-					<DegreeName>Bachelors of Science</DegreeName>
-					<DegreeDate>
-						<Year>1995</Year>
-					</DegreeDate>
-					<DegreeMajor>
-						<Name>Computer Science</Name>
-					</DegreeMajor>
-					<DegreeMinor>
-						<Name>Math</Name>
-					</DegreeMinor>
-					<DegreeMeasure>
-						<EducationalMeasure>
-							<MeasureSystem>GPA</MeasureSystem>
-							<MeasureValue>
-								<NumericValue>3.0</NumericValue>
-							</MeasureValue>
-						</EducationalMeasure>
-					</DegreeMeasure>
-				</Degree>
-                <Comments>ask me over beers if you must</Comments>
-			</SchoolOrInstitution>
-		</EducationHistory>
-		<PatentHistory>
-			<Patent>
-				<PatentTitle>
-					Branched Rollup of Learning Objects with Shared Competencies
-				</PatentTitle>
-				<Description>
-					Branched rollup was implemented as an enhancement to a more generic activity
-					tree sequencing and rollup framework based on the information and behavior
-					models defined in the IMS Simple Sequencing specification. Before the overall
-					rollup process begins, a RollupContext is created. The RollupContext is
-					responsible for determining the next activity tree node to be evaluated in the
-					rollup process. The rollup process does not depend on the order of node
-					evaluation, so different implementations of RollupContext can use different
-					algorithms for ordering the nodes for rollup. The enhanced BranchedRollupContext
-					replaces the standard RollupContext within an implementation, and handles the
-					branched rollup using a two-phase approach to identify: 1) a list of rollup
-					branch nodes, and 2) a set of control blocks for each node that defines which
-					branches affect that node. This information is consulted during the rollup
-					process to prevent repeated rollup of any of the nodes within the activity tree.
-				</Description>
-				<Inventors>
-					<InventorName>Thomas J. Dinger</InventorName>
-					<InventorName>Jonathan T. Zempel</InventorName>
-				</Inventors>
-				<PatentDetail>
-					<IssuingAuthority countryCode="US">
-						US Patent and Trademark Office
-					</IssuingAuthority>
-					<PatentMilestone>
-						<Id>20050112530</Id>
-						<Status>PatentPending</Status>
-						<Date>2005-05-26</Date>
-					</PatentMilestone>
-					<PatentMilestone>
-						<Id>10-721630</Id>
-						<Status>PatentFiled</Status>
-						<Date>2003-11-25</Date>
-					</PatentMilestone>
-				</PatentDetail>
-				<Link>http://www.delphion.com/details?pn=US25112530A1</Link>
-			</Patent>
-			<Patent>
-				<PatentTitle>Pluggable eLearning Tracking Component</PatentTitle>
-				<Description>
-					The component described by this invention provides support for prevalent
-					eLearning progress tracking standards. While progress tracking components are
-					common to the learning management system (LMS) vendor community, it is not
-					imperative that standards-based tracking be applied specifically to a LMS
-					environment. Unlike existing tracking solutions, the eLearning Tracking
-					Component provides an abstraction, whereby complex run-time progress tracking
-					capabilities can be applied to any software application. This invention exposes
-					the advantage of applying progress tracking to a range of industries beyond
-					eLearning.
-				</Description>
-				<Inventors>
-					<InventorName>Jonathan T. Zempel</InventorName>
-				</Inventors>
-				<PatentDetail>
-					<IssuingAuthority countryCode="US">
-						US Patent and Trademark Office
-					</IssuingAuthority>
-					<PatentMilestone>
-						<Id>20050132330</Id>
-						<Status>PatentPending</Status>
-						<Date>2005-06-16</Date>
-					</PatentMilestone>
-					<PatentMilestone>
-						<Id>10-734038</Id>
-						<Status>PatentFiled</Status>
-						<Date>2003-12-11</Date>
-					</PatentMilestone>
-				</PatentDetail>
-				<Link>http://www.delphion.com/details?pn=US25132330A1</Link>
-			</Patent>
-			<Patent>
-				<PatentTitle>Pluggable eLearning Sequencing Engine</PatentTitle>
-				<Description>
-					The basis for this invention is a module that implements the core logic for all
-					of the static concepts surfaced within the Behavior Model of the IMS Simple
-					Sequencing specification. These include a definition of the sequencing
-					components, the logic for the overall sequencing process (or "sequencing loop"),
-					and the algorithms used to determine the path through the sequencing process
-					(based on navigation, sequencing control modes, limit conditions, sequencing
-					rules, and rollup rules). This invention has the advantage of encapsulating the
-					core business logic for sequencing while leaving application-specific aspects
-					open for reimplementation or extension.
-				</Description>
-				<Inventors>
-					<InventorName>Thomas J. Dinger</InventorName>
-					<InventorName>Jonathan T. Zempel</InventorName>
-				</Inventors>
-				<PatentDetail>
-					<IssuingAuthority countryCode="US">
-						US Patent and Trademark Office
-					</IssuingAuthority>
-					<PatentMilestone>
-						<Id>20050136383</Id>
-						<Status>PatentPending</Status>
-						<Date>2005-06-23</Date>
-					</PatentMilestone>
-					<PatentMilestone>
-						<Id>10-738829</Id>
-						<Status>PatentFiled</Status>
-						<Date>2003-12-17</Date>
-					</PatentMilestone>
-				</PatentDetail>
-				<Link>http://www.delphion.com/details?pn=US25136383A1</Link>
-			</Patent>
-			<Patent>
-				<PatentTitle>Personalized Distribution of Learning Content</PatentTitle>
-				<Description>
-					A method of operating a content management system, accessing user information,
-					and transmitting the content from the central repository to one or more content
-					servers based on the relevance of the learning content to a user population.
-				</Description>
-				<Inventors>
-					<InventorName>Thomas J. Dinger</InventorName>
-					<InventorName>Jonathan T. Zempel</InventorName>
-					<InventorName>Hussam Eid</InventorName>
-				</Inventors>
-				<PatentDetail>
-					<IssuingAuthority countryCode="US">
-						US Patent and Trademark Office
-					</IssuingAuthority>
-					<PatentMilestone>
-						<Id>20070067306</Id>
-						<Status>PatentPending</Status>
-						<Date>2007-03-22</Date>
-					</PatentMilestone>
-					<PatentMilestone>
-						<Id>11-428333</Id>
-						<Status>PatentFiled</Status>
-						<Date>2006-06-30</Date>
-					</PatentMilestone>
-				</PatentDetail>
-				<Link>http://www.delphion.com/details?pn=US27067306A1</Link>
-			</Patent>
-			<Patent>
-				<PatentTitle>
-					Component-based Distributed Learning Management Architecture
-				</PatentTitle>
-				<Description>
-					This invention provides a distributed learning management architecture that is
-					"componentized" for increased scalability. Specifically, the present invention
-					provides an architecture in which multiple content servers, delivery servers
-					and/or live session servers can be provided to accommodate multiple geographic
-					locations.
-				</Description>
-				<Inventors>
-					<InventorName>Thomas J. Dinger</InventorName>
-					<InventorName>Christopher A. Hyland</InventorName>
-					<InventorName>David B. Millen</InventorName>
-					<InventorName>Charles de Saint-Aignan</InventorName>
-					<InventorName>Fernando Salazar</InventorName>
-					<InventorName>Jonathan T. Zempel</InventorName>
-				</Inventors>
-				<PatentDetail>
-					<IssuingAuthority countryCode="US">
-						US Patent and Trademark Office
-					</IssuingAuthority>
-					<PatentMilestone>
-						<Id>20080318201</Id>
-						<Status>PatentPending</Status>
-						<Date>2008-12-25</Date>
-					</PatentMilestone>
-					<PatentMilestone>
-						<Id>12-192725</Id>
-						<Status>PatentFiled</Status>
-						<Date>2008-08-15</Date>
-					</PatentMilestone>
-					<PatentMilestone>
-						<Id>20050132294</Id>
-						<Status>PatentPending</Status>
-						<Date>2005-06-16</Date>
-					</PatentMilestone>
-					<PatentMilestone>
-						<Id>10-737340</Id>
-						<Status>PatentFiled</Status>
-						<Date>2003-12-16</Date>
-					</PatentMilestone>
-				</PatentDetail>
-				<Link>http://www.delphion.com/details?pn=US28318201A1</Link>
-			</Patent>
-		</PatentHistory>
-		<PublicationHistory>
-			<OtherPublication>
-				<Title>AICC: CMI Guidelines for Interoperability</Title>
-				<Name role="contributor" />
-				<PublicationDate>
-					<AnyDate>2004-08-16</AnyDate>
-				</PublicationDate>
-				<Link>http://www.aicc.org/docs/tech/cmi001v4.pdf</Link>
-				<Comments>
-					Provided review and feedback as a qualified implementer of previous AICC
-					interoperability specifications of computer-managed instruction systems for both
-					file-based and web-based environments.
-				</Comments>
-			</OtherPublication>
-			<OtherPublication>
-				<Title>IMS Simple Sequencing Information and Behavior Model</Title>
-				<Name role="contributor" />
-				<PublicationDate>
-					<AnyDate>2003-03-03</AnyDate>
-				</PublicationDate>
-				<Link>http://www.imsglobal.org/simplesequencing/ssv1p0/imsss_infov1p0.html</Link>
-				<Comments>
-					Contributed to the definition and review of an XML binding for the standard
-					declaration of sequencing controls, rules, conditions, and objective mappings
-					for a learning activity.
-				</Comments>
-			</OtherPublication>
-		</PublicationHistory>
-		<Qualifications>
-			<Competency name="Languages">
-				<Competency name="Python" />
-				<Competency name="Ruby" />
-				<Competency name="HTML5" />
-				<Competency name="CSS" />
-				<Competency name="JavaScript" />
-				<Competency name="Java" />
-				<Competency name="SQL" />
-			</Competency>
-			<Competency name="Frameworks">
-                <Competency name="Flask" />
-                <Competency name="Rails" />
-				<Competency name="Django" />
-				<Competency name="Apache Tomcat" />
-				<Competency name="WebSphere" />
-			</Competency>
-			<Competency name="Technologies">
-				<Competency name="REST services" />
-				<Competency name="JSON" />
-				<Competency name="jQuery" />
-				<Competency name="Ember" />
-				<Competency name="Jinja2" />
-				<Competency name="xUnit" />
-				<Competency name="BEM OOCSS" />
-			</Competency>
-            <Competency name="Cloud">
-                <Competency name="Heroku" />
-                <Competency name="EC2" />
-                <Competency name="New Relic" />
-                <Competency name="SendGrid" />
-                <Competency name="Loggly" />
-            </Competency>
-			<Competency name="Databases">
-                <Competency name="MongoDB" />
-                <Competency name="Redis" />
-				<Competency name="MySQL" />
-				<Competency name="SQLite" />
-				<Competency name="Oracle" />
-				<Competency name="SQL Server" />
-			</Competency>
-			<Competency name="Operating Systems">
-				<Competency name="Mac OS X" />
-				<Competency name="Linux Ubuntu, Debian" />
-			</Competency>
-			<Competency name="Development Tools">
-				<Competency name="git" />
-                <Competency name="vim" />
-                <Competency name="terminal" />
-                <Competency name="PivotalTracker" />
-                <Competency name="JIRA" />
-			</Competency>
-		</Qualifications>
-		<Associations>
-			<Association type="Professional">
-				<Name>ADL Community</Name>
-				<Link>http://www.adlnet.gov</Link>
-				<StartDate>
-					<YearMonth>2005-07</YearMonth>
-				</StartDate>
-				<EndDate>
-					<YearMonth>2010-02</YearMonth>
-				</EndDate>
-				<Role>
-					<Name>Technical Working Group Member</Name>
-					<Deliverable>SCORM 2004 3rd Edition</Deliverable>
-				</Role>
-				<Comments>
-					Partnered with ADL in the development of the SCORM suite of specifications since
-					version 1.0 (including versions 1.1, 1.2, and 2004). Contributed to the
-					specification and technical review of the standard content aggregation model,
-					run-time, sequencing and navigation books.
-				</Comments>
-			</Association>
-			<Association type="Professional">
-				<Name>IMS Global Learning Consortium</Name>
-				<Link>http://www.imsglobal.org</Link>
-				<StartDate>
-					<YearMonth>2002-04</YearMonth>
-				</StartDate>
-				<EndDate>
-					<YearMonth>2003-01</YearMonth>
-				</EndDate>
-				<Role>
-					<Name>Contributing Member</Name>
-					<Deliverable>IMS Simple Sequencing, Version 1.0</Deliverable>
-				</Role>
-				<Comments>
-					Joined the Simple Sequencing working group, dedicated to the method definition
-					for representing authored learning experiences, such that an eLearning
-					management system sequences learning activities in a consistent way. In nine
-					months, the group completed the specification of a complex rule-based sequencing
-					information model.
-				</Comments>
-			</Association>
-		</Associations>
-		<RevisionDate>2017-03-05</RevisionDate>
-	</StructuredXMLResume>
+      </OtherPublication>
+      <OtherPublication>
+        <Title>IMS Simple Sequencing Information and Behavior Model</Title>
+        <Name role="contributor" />
+        <PublicationDate>
+          <AnyDate>2003-03-03</AnyDate>
+        </PublicationDate>
+        <Link>http://www.imsglobal.org/simplesequencing/ssv1p0/imsss_infov1p0.html</Link>
+        <Comments>
+          Contributed to the definition and review of an XML binding for the standard
+          declaration of sequencing controls, rules, conditions, and objective mappings
+          for a learning activity.
+        </Comments>
+      </OtherPublication>
+    </PublicationHistory>
+    <Qualifications>
+      <Competency name="Languages">
+        <Competency name="Python" />
+        <Competency name="Ruby" />
+        <Competency name="JavaScript" />
+        <Competency name="HTML5" />
+        <Competency name="CSS" />
+        <Competency name="Java" />
+        <Competency name="SQL" />
+      </Competency>
+      <Competency name="Frameworks">
+        <Competency name="Flask" />
+        <Competency name="Rails" />
+        <Competency name="Django" />
+        <Competency name="WebSphere" />
+      </Competency>
+      <Competency name="Technologies">
+        <Competency name="REST services" />
+        <Competency name="React" />
+        <Competency name="Ember" />
+        <Competency name="jQuery" />
+        <Competency name="xUnit" />
+        <Competency name="BEM OOCSS" />
+      </Competency>
+        <Competency name="Cloud">
+        <Competency name="AWS" />
+        <Competency name="Heroku" />
+        <Competency name="New Relic" />
+        <Competency name="SendGrid" />
+        <Competency name="Loggly" />
+      </Competency>
+      <Competency name="Databases">
+        <Competency name="MongoDB" />
+        <Competency name="Redis" />
+        <Competency name="MySQL" />
+        <Competency name="SQLite" />
+        <Competency name="Oracle" />
+        <Competency name="SQL Server" />
+      </Competency>
+      <Competency name="Operating Systems">
+        <Competency name="Mac OS X" />
+        <Competency name="Linux Ubuntu, Debian" />
+      </Competency>
+      <Competency name="Project Management">
+        <Competency name="PivotalTracker" />
+        <Competency name="JIRA" />
+        <Competency name="Trello" />
+      </Competency>
+      <Competency name="Development Tools">
+        <Competency name="git" />
+        <Competency name="vim" />
+        <Competency name="terminal" />
+      </Competency>
+    </Qualifications>
+    <Associations>
+      <Association type="Professional">
+        <Name>ADL Community</Name>
+        <Link>http://www.adlnet.gov</Link>
+        <StartDate>
+          <YearMonth>2005-07</YearMonth>
+        </StartDate>
+        <EndDate>
+          <YearMonth>2010-02</YearMonth>
+        </EndDate>
+        <Role>
+          <Name>Technical Working Group Member</Name>
+          <Deliverable>SCORM 2004 3rd Edition</Deliverable>
+        </Role>
+        <Comments>
+          Partnered with ADL in the development of the SCORM suite of specifications since
+          version 1.0 (including versions 1.1, 1.2, and 2004). Contributed to the
+          specification and technical review of the standard content aggregation model,
+          run-time, sequencing and navigation books.
+        </Comments>
+      </Association>
+      <Association type="Professional">
+        <Name>IMS Global Learning Consortium</Name>
+        <Link>http://www.imsglobal.org</Link>
+        <StartDate>
+          <YearMonth>2002-04</YearMonth>
+        </StartDate>
+        <EndDate>
+          <YearMonth>2003-01</YearMonth>
+        </EndDate>
+        <Role>
+          <Name>Contributing Member</Name>
+          <Deliverable>IMS Simple Sequencing, Version 1.0</Deliverable>
+        </Role>
+        <Comments>
+          Joined the Simple Sequencing working group, dedicated to the method definition
+          for representing authored learning experiences, such that an eLearning
+          management system sequences learning activities in a consistent way. In nine
+          months, the group completed the specification of a complex rule-based sequencing
+          information model.
+        </Comments>
+      </Association>
+    </Associations>
+    <RevisionDate>2017-03-05</RevisionDate>
+  </StructuredXMLResume>
 </Resume>
