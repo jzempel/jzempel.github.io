@@ -62,15 +62,20 @@
               <OrganizationName />
             </OrgName>
             <Description>
-              Member of the illustrious Creative Team.
+              Member of the illustrious Creative Team where I manage a
+              tight-knit design &amp; development team responsible for
+              producing a system of shared components for providing common UI
+              across the suite of Zendesk products.
             </Description>
             <StartDate>
               <YearMonth>2014-04</YearMonth>
             </StartDate>
             <Competency
-              description="Built internal TV application (Rails 4) used to broadcast worldwide company news and information" />
+              description="Created Project: Garden (React + OOCSS) - Zendesk's cross-product web component library" />
             <Competency
-              description="Created Project: Garden (Ember + Rails) - a place for developing cross-application web components" />
+              description="Organized Electroid (Sketch) – the design system that informs Garden" />
+            <Competency
+              description="Built internal TV application (Rails 4) used to broadcast worldwide company news and information" />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -616,9 +621,9 @@
       <Competency name="Languages">
         <Competency name="Python" />
         <Competency name="Ruby" />
+        <Competency name="JavaScript" />
         <Competency name="HTML5" />
         <Competency name="CSS" />
-        <Competency name="JavaScript" />
         <Competency name="Java" />
         <Competency name="SQL" />
       </Competency>
@@ -626,21 +631,19 @@
         <Competency name="Flask" />
         <Competency name="Rails" />
         <Competency name="Django" />
-        <Competency name="Apache Tomcat" />
         <Competency name="WebSphere" />
       </Competency>
       <Competency name="Technologies">
         <Competency name="REST services" />
-        <Competency name="JSON" />
-        <Competency name="jQuery" />
+        <Competency name="React" />
         <Competency name="Ember" />
-        <Competency name="Jinja2" />
+        <Competency name="jQuery" />
         <Competency name="xUnit" />
         <Competency name="BEM OOCSS" />
       </Competency>
         <Competency name="Cloud">
+        <Competency name="AWS" />
         <Competency name="Heroku" />
-        <Competency name="EC2" />
         <Competency name="New Relic" />
         <Competency name="SendGrid" />
         <Competency name="Loggly" />
@@ -657,12 +660,15 @@
         <Competency name="Mac OS X" />
         <Competency name="Linux Ubuntu, Debian" />
       </Competency>
+      <Competency name="Project Management">
+        <Competency name="PivotalTracker" />
+        <Competency name="JIRA" />
+        <Competency name="Trello" />
+      </Competency>
       <Competency name="Development Tools">
         <Competency name="git" />
         <Competency name="vim" />
         <Competency name="terminal" />
-        <Competency name="PivotalTracker" />
-        <Competency name="JIRA" />
       </Competency>
     </Qualifications>
     <Associations>

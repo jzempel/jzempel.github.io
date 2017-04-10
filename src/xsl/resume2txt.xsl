@@ -10,10 +10,6 @@
     <xsl:apply-templates select="resume:ExecutiveSummary" />
     <xsl:apply-templates select="resume:Qualifications" />
     <xsl:apply-templates select="resume:EmploymentHistory" />
-    <xsl:apply-templates select="resume:Associations" />
-    <xsl:apply-templates select="resume:PublicationHistory" />
-    <xsl:apply-templates select="resume:EducationHistory" />
-    <xsl:apply-templates select="resume:PatentHistory" />
     <xsl:apply-templates select="resume:ContactInfo" />
   </xsl:template>
   <xsl:template match="resume:Associations">
@@ -119,6 +115,7 @@
       <xsl:with-param name="text" select="'PROFESSIONAL EXPERIENCE'" />
     </xsl:call-template>
     <xsl:for-each select="resume:EmployerOrg">
+      <xsl:text>@&#x20;</xsl:text>
       <xsl:value-of select="resume:EmployerOrgName" />
       <xsl:text>,&#x20;</xsl:text>
       <xsl:apply-templates select="resume:EmployerContactInfo" />

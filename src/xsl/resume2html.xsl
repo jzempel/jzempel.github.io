@@ -14,10 +14,6 @@
             <xsl:apply-templates select="resume:ExecutiveSummary" />
             <xsl:apply-templates select="resume:Qualifications" />
             <xsl:apply-templates select="resume:EmploymentHistory" />
-            <xsl:apply-templates select="resume:Associations" />
-            <xsl:apply-templates select="resume:PublicationHistory" />
-            <xsl:apply-templates select="resume:EducationHistory" />
-            <xsl:apply-templates select="resume:PatentHistory" />
           </div>
         </div>
       </body>
