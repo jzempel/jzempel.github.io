@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jonathan Zempel's Resume</title>
+  <meta charset="utf-8">
+  <link href="index.css" rel="stylesheet">
+</head>
+<body>
+  <script async src="//www.google-analytics.com/analytics.js"></script>
+  <script src="index.js"></script>
+  <script>
+  (function() {
+    var xmlUrl = 'resume.xml';
+    var xslUrl = 'xsl/resume2html.xsl';
+    var xslFile = getUrl('xsl/resume2txt.xsl');
+    var xmlFile = getUrl(xmlUrl);
+    var links = {
+      'PDF Resume': 'Jonathan Zempel.pdf',
+      'Text Resume': 'http://services.w3.org/xslt?xslfile=' + encodeURIComponent(xslFile) + '&xmlfile=' + encodeURIComponent(xmlFile) + '&content-type=text%2Fplain',
+      'GitHub': 'https://github.com/jzempel',
+      'Instagram': 'https://www.instagram.com/jzempel'
+    };
+    var html = transform(xmlUrl, xslUrl, links);
+
+    if (html != null) {
+        document.open();
+        document.write(html);
+        document.close();
+    } else {
+        location.replace('Jonathan Zempel.pdf');
+    }
+
+    setGoogleAnalytics('UA-10065875-1');
+  })();
+  </script>
+</body>
+</html>
