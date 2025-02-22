@@ -16,29 +16,29 @@
         <InternetWebAddress>https://jzempel.github.io</InternetWebAddress>
         <PostalAddress>
           <CountryCode>US</CountryCode>
-          <PostalCode>95120</PostalCode>
-          <Region>CA</Region>
-          <Municipality>San Jose</Municipality>
+          <PostalCode>27517</PostalCode>
+          <Region>NC</Region>
+          <Municipality>Chapel Hill</Municipality>
           <DeliveryAddress>
-            <AddressLine>6362 Desert Flame Dr.</AddressLine>
+            <AddressLine>1817 Whippoorwill Ln.</AddressLine>
           </DeliveryAddress>
         </PostalAddress>
       </ContactMethod>
     </ContactInfo>
     <ExecutiveSummary>
-      An accomplished semantic web developer, specializing in resource-oriented design and
-      analysis, application of pure RESTful patterns, robust micro-service architectures,
-      lean thinking, dedication to code construction styled for readability, and software
-      implementations tuned for performance. Repeatedly recognized for a broad range of
-      technical competence, an untiring dedication to mentoring and quality review, superb team
-      leadership ability, and a keen awareness for inventing flexible product solutions catered
-      to a wide variety of consumer demands.
+      An accomplished design systems practitioner, specializing in
+      resource-oriented design and analysis, robust micro-service architectures,
+      lean thinking, dedication to code construction styled for readability, and
+      software implementations tuned for performance. Repeatedly recognized for
+      a broad range of technical competence, strong design instincts, an
+      untiring dedication to mentoring and quality review, superb team
+      leadership ability, and a keen awareness for inventing flexible product
+      solutions catered to a wide variety of consumer demands.
     </ExecutiveSummary>
     <Comments>
     </Comments>
     <Objective>
-      Lead the design and implementation effort for a RESTful service API supporting a
-      cutting-edge semantic web application.
+      Lead the design and development effort for a cutting-edge design system.
     </Objective>
     <EmploymentHistory>
       <EmployerOrg>
@@ -47,35 +47,49 @@
           <ContactMethod>
             <PostalAddress>
               <CountryCode>US</CountryCode>
-              <PostalCode>94103</PostalCode>
+              <PostalCode>94105</PostalCode>
               <Region>CA</Region>
               <Municipality>San Francisco</Municipality>
               <DeliveryAddress>
-                <AddressLine>989 Market St</AddressLine>
+                <AddressLine>181 Fremont St.</AddressLine>
               </DeliveryAddress>
             </PostalAddress>
           </ContactMethod>
         </EmployerContactInfo>
         <PositionHistory>
-            <Title>Principal Engineer</Title>
+            <Title>Sr. Principal Engineer</Title>
             <OrgName>
               <OrganizationName />
             </OrgName>
             <Description>
-              Member of the illustrious Creative Team where I manage a
-              tight-knit design &amp; development team responsible for
-              producing a system of shared components for providing common UI
-              across the suite of Zendesk products.
+              Created the Zendesk Garden design system as a dedicated advocate
+              for user experience. This comprehensive system helps teams deliver
+              exceptional digital experiences. My focus on collaboration and
+              innovation led to a design system that streamlines workflows and
+              enhances product consistency and accessibility. Through careful
+              research and user testing, I led a team to build a strong library
+              of components and guidelines that promote best practices in UI/UX
+              design. I worked closely with product managers, designers, and
+              engineers to gather feedback and continuously improve the system.
+              The result is a scalable, user-friendly design system that has
+              greatly increased development efficiency and user satisfaction
+              across all Zendesk products. My contributions fostered a culture
+              of design thinking within the organization, making a lasting
+              impact on Zendesk's product development approach.
             </Description>
             <StartDate>
               <YearMonth>2014-04</YearMonth>
             </StartDate>
             <Competency
-              description="Created Project: Garden (React + OOCSS) - Zendesk's cross-product web component library" />
+              description="Created Project: Garden (Figma &amp; React) - the source of truth for tools, standards, and best practices when building products at Zendesk" />
             <Competency
-              description="Organized Electroid (Sketch) – the design system that informs Garden" />
+              description="Assembled the crack team of designers and engineers who build and maintain the design system" />
             <Competency
-              description="Built internal TV application (Rails 4) used to broadcast worldwide company news and information" />
+              description="Collaborated with globally dispersed product teams to foster Garden adoption" />
+            <Competency
+              description="Developed data analytics and reporting to track internal Garden usage over time" />
+            <Competency
+              description="Championed Zendesk's technical accessibility initiative" />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -618,52 +632,27 @@
       </OtherPublication>
     </PublicationHistory>
     <Qualifications>
+      <Competency name="Technologies">
+        <Competency name="React" />
+        <Competency name="Jest" />
+        <Competency name="Storybook" />
+        <Competency name="Tailwind CSS" />
+      </Competency>
       <Competency name="Languages">
-        <Competency name="Python" />
-        <Competency name="Ruby" />
         <Competency name="JavaScript" />
-        <Competency name="HTML5" />
+        <Competency name="HTML" />
         <Competency name="CSS" />
+        <Competency name="Python" />
         <Competency name="Java" />
         <Competency name="SQL" />
       </Competency>
-      <Competency name="Frameworks">
-        <Competency name="Flask" />
-        <Competency name="Rails" />
-        <Competency name="Django" />
-        <Competency name="WebSphere" />
-      </Competency>
-      <Competency name="Technologies">
-        <Competency name="REST services" />
-        <Competency name="React" />
-        <Competency name="Ember" />
-        <Competency name="jQuery" />
-        <Competency name="xUnit" />
-        <Competency name="BEM OOCSS" />
-      </Competency>
-        <Competency name="Cloud">
-        <Competency name="AWS" />
-        <Competency name="Heroku" />
-        <Competency name="New Relic" />
-        <Competency name="SendGrid" />
-        <Competency name="Loggly" />
-      </Competency>
-      <Competency name="Databases">
-        <Competency name="MongoDB" />
-        <Competency name="Redis" />
-        <Competency name="MySQL" />
-        <Competency name="SQLite" />
-        <Competency name="Oracle" />
-        <Competency name="SQL Server" />
-      </Competency>
-      <Competency name="Operating Systems">
-        <Competency name="Mac OS X" />
-        <Competency name="Linux Ubuntu, Debian" />
-      </Competency>
       <Competency name="Project Management">
-        <Competency name="PivotalTracker" />
         <Competency name="JIRA" />
-        <Competency name="Trello" />
+        <Competency name="PivotalTracker" />
+      </Competency>
+      <Competency name="Design Tools">
+        <Competency name="Figma" />
+        <Competency name="Sketch" />
       </Competency>
       <Competency name="Development Tools">
         <Competency name="git" />

@@ -346,13 +346,9 @@
     </block>
   </xsl:template>
   <xsl:template match="resume:PostalAddress">
-    <xsl:value-of select="resume:DeliveryAddress/resume:AddressLine" />
-    <xsl:text>,&#x20;</xsl:text>
     <xsl:value-of select="resume:Municipality" />
     <xsl:text>,&#x20;</xsl:text>
     <xsl:value-of select="resume:Region" />
-    <xsl:text>&#x20;</xsl:text>
-    <xsl:value-of select="resume:PostalCode" />
   </xsl:template>
   <xsl:template match="resume:PostalAddress" mode="employer">
     <xsl:value-of select="resume:Municipality" />
@@ -402,7 +398,7 @@
   <xsl:template match="resume:Qualifications">
     <block margin-bottom="25pt">
       <xsl:call-template name="getTitleBlock">
-        <xsl:with-param name="title" select="string('Technical Expertise')" />
+        <xsl:with-param name="title" select="string('Expertise')" />
       </xsl:call-template>
       <block font-size="90%" line-height="150%" margin-bottom="10pt" margin-left="20pt">
         <list-block>

@@ -216,13 +216,9 @@
   <xsl:template match="resume:PostalAddress">
     <xsl:param name="columnIndex" select="0" />
     <xsl:variable name="postalAddress">
-      <xsl:value-of select="resume:DeliveryAddress/resume:AddressLine" />
-      <xsl:text>,&#x20;</xsl:text>
       <xsl:value-of select="resume:Municipality" />
       <xsl:text>,&#x20;</xsl:text>
       <xsl:value-of select="resume:Region" />
-      <xsl:text>&#x20;</xsl:text>
-      <xsl:value-of select="resume:PostalCode" />
     </xsl:variable>
     <xsl:call-template name="getCharacters">
       <xsl:with-param name="character" select="' '" />
@@ -253,7 +249,7 @@
   </xsl:template>
   <xsl:template match="resume:Qualifications">
     <xsl:call-template name="getHeading">
-      <xsl:with-param name="text" select="'TECHNICAL EXPERTISE'" />
+      <xsl:with-param name="text" select="'EXPERTISE'" />
     </xsl:call-template>
     <xsl:for-each select="resume:Competency">
       <xsl:call-template name="wrapText">
