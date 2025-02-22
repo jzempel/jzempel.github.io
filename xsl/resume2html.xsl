@@ -223,14 +223,9 @@
   </xsl:template>
   <xsl:template match="resume:PostalAddress">
     <p>
-      <xsl:value-of select="resume:DeliveryAddress/resume:AddressLine" />
-    </p>
-    <p>
       <xsl:value-of select="resume:Municipality" />
       <xsl:text>,&#x20;</xsl:text>
       <xsl:value-of select="resume:Region" />
-      <xsl:text>&#x20;</xsl:text>
-      <xsl:value-of select="resume:PostalCode" />
     </p>
   </xsl:template>
   <xsl:template match="resume:PostalAddress" mode="employer">
@@ -266,7 +261,7 @@
   </xsl:template>
   <xsl:template match="resume:Qualifications">
     <div class="section">
-      <p class="sectionTitle">Technical Expertise</p>
+      <p class="sectionTitle">Expertise</p>
       <div class="subSection">
         <ul>
           <xsl:for-each select="resume:Competency">
