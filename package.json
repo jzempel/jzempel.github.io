@@ -2,10 +2,13 @@
   "name": "jzempel.github.io",
   "private": true,
   "devDependencies": {
-    "gh-pages": "^0.12.0",
-    "live-server": "^1.2.0"
+    "gh-pages": "6.3.0",
+    "husky": "9.1.7",
+    "lint-staged": "17.0.7",
+    "live-server": "1.2.2"
   },
   "scripts": {
+    "prepare": "husky",
     "publish": "gh-pages -d src -b master",
     "start": "live-server src",
     "test": "true"

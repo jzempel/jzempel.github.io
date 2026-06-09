@@ -83,7 +83,7 @@
             <Competency
               description="Created Project: Garden (Figma &amp; React) - the source of truth for tools, standards, and best practices when building products at Zendesk" />
             <Competency
-              description="Assembled the crack team of designers and engineers who build and maintain the design system" />
+              description="Built and led a cross-functional team of engineers and designers, architecting a federated contribution model that enabled Garden to scale across dozens of distributed engineering teams while preserving the stability and reliability of core libraries with zero regressions" />
             <Competency
               description="Collaborated with globally dispersed product teams to foster Garden adoption" />
             <Competency
@@ -634,12 +634,12 @@
     <Qualifications>
       <Competency name="Technologies">
         <Competency name="React" />
-        <Competency name="Jest" />
+        <Competency name="Vite+" />
         <Competency name="Storybook" />
         <Competency name="Tailwind CSS" />
       </Competency>
       <Competency name="Languages">
-        <Competency name="JavaScript" />
+        <Competency name="TypeScript" />
         <Competency name="HTML" />
         <Competency name="CSS" />
         <Competency name="Python" />
