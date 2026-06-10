@@ -75,7 +75,9 @@
               greatly increased development efficiency and user satisfaction
               across all Zendesk products. My contributions fostered a culture
               of design thinking within the organization, making a lasting
-              impact on Zendesk's product development approach.
+              impact on Zendesk's product development approach. Leveraging
+              Garden, I personally delivered the component set that informed
+              Zendesk's 2026 unified navigation across eight products.
             </Description>
             <StartDate>
               <YearMonth>2014-04</YearMonth>
@@ -83,13 +85,13 @@
             <Competency
               description="Created Project: Garden (Figma &amp; React) - the source of truth for tools, standards, and best practices when building products at Zendesk" />
             <Competency
-              description="Assembled the crack team of designers and engineers who build and maintain the design system" />
+              description="Built and led a cross-functional team of engineers and designers that maintained zero-regression core libraries" />
             <Competency
-              description="Collaborated with globally dispersed product teams to foster Garden adoption" />
+              description="Architected a federated contribution model that scaled Garden across dozens of globally distributed engineering teams" />
             <Competency
-              description="Developed data analytics and reporting to track internal Garden usage over time" />
+              description="Engineered custom static analysis tools and dependency tracking to measure Garden adoption, which grew to cover more than 95% of all UI interactions" />
             <Competency
-              description="Championed Zendesk's technical accessibility initiative" />
+              description="Spearheaded Zendesk's technical accessibility initiative, engineering WCAG 2.2 AA compliance directly into the primitive component layer to guarantee access for everyone across all product experiences" />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -634,12 +636,12 @@
     <Qualifications>
       <Competency name="Technologies">
         <Competency name="React" />
-        <Competency name="Jest" />
+        <Competency name="Vite" />
         <Competency name="Storybook" />
         <Competency name="Tailwind CSS" />
       </Competency>
       <Competency name="Languages">
-        <Competency name="JavaScript" />
+        <Competency name="TypeScript" />
         <Competency name="HTML" />
         <Competency name="CSS" />
         <Competency name="Python" />
