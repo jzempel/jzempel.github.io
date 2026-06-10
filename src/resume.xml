@@ -636,7 +636,7 @@
     <Qualifications>
       <Competency name="Technologies">
         <Competency name="React" />
-        <Competency name="Vite+" />
+        <Competency name="Vite" />
         <Competency name="Storybook" />
         <Competency name="Tailwind CSS" />
       </Competency>
