@@ -8,8 +8,8 @@
       <layout-master-set>
         <simple-page-master master-name="first" margin-bottom="12mm" margin-left="24mm"
           margin-right="24mm" margin-top="12mm">
-          <region-body margin-top="36mm" />
-          <region-before extent="36mm" />
+          <region-body margin-top="20mm" />
+          <region-before extent="20mm" />
         </simple-page-master>
         <simple-page-master master-name="default" margin-bottom="6mm" margin-left="12mm"
           margin-right="10mm" margin-top="18mm">
@@ -33,20 +33,20 @@
       </declarations>
       <page-sequence master-reference="resume">
         <static-content flow-name="xsl-region-before">
-          <block font-family="Times Roman" font-size="12pt" text-align="center">
+          <block font-family="Helvetica" font-size="12pt">
             <xsl:apply-templates select="resume:ContactInfo" mode="header" />
           </block>
         </static-content>
         <static-content flow-name="xsl-region-after">
-          <block font-family="Times Roman" font-size="9pt">
+          <block font-family="Helvetica" font-size="9pt">
             <xsl:apply-templates select="resume:ContactInfo" mode="footer" />
           </block>
         </static-content>
         <flow flow-name="xsl-region-body">
-          <block font-family="Times Roman" font-size="11pt">
+          <block font-family="Helvetica" font-size="11pt">
             <xsl:apply-templates select="resume:ExecutiveSummary" />
-            <xsl:apply-templates select="resume:Qualifications" />
             <xsl:apply-templates select="resume:EmploymentHistory" />
+            <xsl:apply-templates select="resume:Qualifications" />
           </block>
         </flow>
       </page-sequence>
@@ -138,20 +138,15 @@
     </table>
   </xsl:template>
   <xsl:template match="resume:ContactInfo" mode="header">
-    <block font-size="150%" letter-spacing="3pt" text-transform="uppercase">
+    <block font-size="150%" letter-spacing="2pt" text-transform="uppercase">
       <xsl:call-template name="getPersonName" />
     </block>
     <xsl:apply-templates select="resume:ContactMethod" />
   </xsl:template>
   <xsl:template match="resume:ContactMethod">
-    <block>
-      <xsl:apply-templates select="resume:PostalAddress" />
-    </block>
-    <block>
       <xsl:value-of select="resume:Telephone/resume:FormattedNumber" />
-    </block>
-    <xsl:variable name="email" select="resume:InternetEmailAddress" />
-    <block>
+      <xsl:text>&#8194;•&#8194;</xsl:text>
+      <xsl:variable name="email" select="resume:InternetEmailAddress" />
       <xsl:call-template name="getLink">
         <xsl:with-param name="link">
           <xsl:text>mailto:</xsl:text>
@@ -159,7 +154,6 @@
         </xsl:with-param>
         <xsl:with-param name="text" select="$email" />
       </xsl:call-template>
-    </block>
   </xsl:template>
   <xsl:template match="resume:ContactMethod" mode="employer">
     <xsl:apply-templates select="resume:PostalAddress" mode="employer" />
@@ -188,11 +182,11 @@
   <xsl:template match="resume:EmploymentHistory">
     <block margin-bottom="25pt">
       <xsl:call-template name="getTitleBlock">
-        <xsl:with-param name="title" select="string('Professional Experience')" />
+        <xsl:with-param name="title" select="string('Experience')" />
       </xsl:call-template>
       <xsl:for-each select="resume:EmployerOrg">
         <xsl:if test="position() &lt;= 3">
-          <block font-size="90%" margin-bottom="10pt" margin-left="20pt">
+          <block font-size="90%" margin-bottom="10pt" margin-left="15pt">
             <block font-weight="bold" margin-bottom="5pt">
               <table table-layout="fixed" width="100%">
                 <table-column column-width="75%" />
@@ -232,7 +226,7 @@
       <xsl:call-template name="getTitleBlock">
         <xsl:with-param name="title" select="string('Summary')" />
       </xsl:call-template>
-      <block font-size="90%" margin-bottom="10pt" margin-left="20pt">
+      <block font-size="90%" margin-bottom="10pt" margin-left="10pt">
         <xsl:value-of select="." />
       </block>
     </block>
@@ -312,13 +306,12 @@
   </xsl:template>
   <xsl:template match="resume:PositionHistory">
     <block keep-with-previous="always">
-      <block font-style="italic" margin-bottom="5pt">
+      <block font-style="italic" margin-left="-5pt" margin-bottom="5pt">
         <xsl:value-of select="resume:Title" />
         <xsl:apply-templates select="resume:OrgName" />
       </block>
-      <block keep-with-previous="always" margin-left="20pt" margin-bottom="15pt">
-        <xsl:value-of select="resume:Description" />
-        <block margin-left="20pt" margin-top="5pt">
+      <block keep-with-previous="always" margin-left="10pt" margin-bottom="15pt">
+        <block margin-top="5pt">
           <list-block keep-with-previous="always">
             <xsl:for-each select="resume:Competency">
               <list-item>
@@ -398,14 +391,14 @@
   <xsl:template match="resume:Qualifications">
     <block margin-bottom="25pt">
       <xsl:call-template name="getTitleBlock">
-        <xsl:with-param name="title" select="string('Expertise')" />
+        <xsl:with-param name="title" select="string('Skills')" />
       </xsl:call-template>
-      <block font-size="90%" line-height="150%" margin-bottom="10pt" margin-left="20pt">
+      <block font-size="90%" line-height="150%" margin-bottom="10pt" margin-left="10pt">
         <list-block>
           <xsl:for-each select="resume:Competency">
             <list-item>
               <list-item-label>
-                <block font-size="150%">&#x2022;</block>
+                <block>&#x2022;</block>
               </list-item-label>
               <list-item-body>
                 <block margin-left="10pt">

@@ -12,8 +12,8 @@
           <xsl:apply-templates select="resume:ContactInfo" />
           <div class="resume">
             <xsl:apply-templates select="resume:ExecutiveSummary" />
-            <xsl:apply-templates select="resume:Qualifications" />
             <xsl:apply-templates select="resume:EmploymentHistory" />
+            <xsl:apply-templates select="resume:Qualifications" />
           </div>
         </div>
       </body>
@@ -120,7 +120,7 @@
   </xsl:template>
   <xsl:template match="resume:EmploymentHistory">
     <div class="section">
-      <p class="sectionTitle">Professional Experience</p>
+      <p class="sectionTitle">Experience</p>
       <xsl:for-each select="resume:EmployerOrg">
         <div class="subSection">
           <p class="subSectionTitle">
@@ -211,7 +211,6 @@
       <xsl:apply-templates select="resume:OrgName" />
     </p>
     <div class="subSubSection">
-      <xsl:value-of select="resume:Description" />
       <ul class="competencies">
         <xsl:for-each select="resume:Competency">
           <li>
@@ -261,7 +260,7 @@
   </xsl:template>
   <xsl:template match="resume:Qualifications">
     <div class="section">
-      <p class="sectionTitle">Expertise</p>
+      <p class="sectionTitle">Skills</p>
       <div class="subSection">
         <ul>
           <xsl:for-each select="resume:Competency">

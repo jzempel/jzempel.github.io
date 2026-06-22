@@ -26,14 +26,14 @@
       </ContactMethod>
     </ContactInfo>
     <ExecutiveSummary>
-      An accomplished design systems practitioner, specializing in
-      resource-oriented design and analysis, robust micro-service architectures,
-      lean thinking, dedication to code construction styled for readability, and
-      software implementations tuned for performance. Repeatedly recognized for
-      a broad range of technical competence, strong design instincts, an
-      untiring dedication to mentoring and quality review, superb team
-      leadership ability, and a keen awareness for inventing flexible product
-      solutions catered to a wide variety of consumer demands.
+      Design systems leader with 10+ years building scalable component
+      platforms. I created and grew Zendesk Garden from zero to 95%+ UI adoption
+      across the product suite, architected a federated contribution model
+      spanning dozens of distributed teams, and shipped the component set that
+      became the foundational UI layer for Zendesk's generative AI app builder.
+      I bring deep expertise in component architecture, design-to-engineering
+      workflows, accessibility, and the organizational strategy required to make
+      a design system stick.
     </ExecutiveSummary>
     <Comments>
     </Comments>
@@ -42,7 +42,7 @@
     </Objective>
     <EmploymentHistory>
       <EmployerOrg>
-        <EmployerOrgName>Zendesk, Inc.</EmployerOrgName>
+        <EmployerOrgName>Zendesk</EmployerOrgName>
         <EmployerContactInfo>
           <ContactMethod>
             <PostalAddress>
@@ -82,16 +82,21 @@
             <StartDate>
               <YearMonth>2014-04</YearMonth>
             </StartDate>
+            <EndDate>
+              <YearMonth>2026-03</YearMonth>
+            </EndDate>
             <Competency
-              description="Created Project: Garden (Figma &amp; React) - the source of truth for tools, standards, and best practices when building products at Zendesk" />
+              description="Created Garden, Zendesk's open source design system (Figma + React), from scratch — now the source of truth for UI standards across all products" />
             <Competency
-              description="Built and led a cross-functional team of engineers and designers that maintained zero-regression core libraries" />
+              description="Scaled Garden into the foundational UI layer for Zendesk's generative AI app builder — fueling a new product line powered by AI-generated interfaces" />
             <Competency
-              description="Architected a federated contribution model that scaled Garden across dozens of globally distributed engineering teams" />
+              description="Built and led a cross-functional team of engineers and designers maintaining zero-regression core libraries" />
             <Competency
-              description="Engineered custom static analysis tools and dependency tracking to measure Garden adoption, which grew to cover more than 95% of all UI interactions" />
+              description="Architected a federated contribution model that scaled Garden to 95%+ of all UI interactions across dozens of globally distributed teams" />
             <Competency
-              description="Spearheaded Zendesk's technical accessibility initiative, engineering WCAG 2.2 AA compliance directly into the primitive component layer to guarantee access for everyone across all product experiences" />
+              description="Spearheaded Zendesk's accessibility initiative, embedding WCAG 2.2 AA compliance into the primitive component layer" />
+            <Competency
+              description="Delivered the component set that powered Zendesk's 2026 unified navigation across eight products" />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -110,7 +115,7 @@
           </ContactMethod>
         </EmployerContactInfo>
         <PositionHistory>
-          <Title>Developer</Title>
+          <Title>Lead Developer</Title>
           <OrgName>
             <OrganizationName />
           </OrgName>
@@ -126,23 +131,15 @@
             <YearMonth>2014-04</YearMonth>
           </EndDate>
           <Competency
-            description="Leveraged jQM to create the entire mobile web experience" />
+            description="Built the full mobile web experience (jQM) and led a major e-commerce redesign for a fashion startup" />
           <Competency
-            description="Implemented redesign of the majority of the e-commerce site" />
+            description="Shifted the team from manual deploys to continuous deployment" />
           <Competency
-            description="Shifted the development team from manual to a continuous deployment strategy" />
-          <Competency
-            description="Injected a custom CMS implementation used to serve user-generated content throughout the website" />
-          <Competency
-            description="Periodic ownership of social marketing campaigns" />
-          <Competency
-            description="Initiated the development of an internal graphical dashboard used to monitor sales and inventory" />
-          <Competency
-            description="Authored open-sourced Stamps.com and Fedex shipping APIs implemented for order fulfillment" />
+            description="Authored open-source Stamps.com and FedEx shipping APIs for order fulfillment" />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
-        <EmployerOrgName>Genomera, Inc.</EmployerOrgName>
+        <EmployerOrgName>Genomera</EmployerOrgName>
         <EmployerContactInfo>
           <ContactMethod>
             <PostalAddress>
@@ -175,13 +172,9 @@
             <YearMonth>2012-08</YearMonth>
           </EndDate>
           <Competency
-            description="Built the entire website based on a HTML5+CSS+JavaScript, Python, and MongoDB stack" />
+            description="Architected an internet-scale social platform modernizing clinical trials using DNA-based health data" />
           <Competency
-            description="Deployed to production multiple times per day, starting from day one" />
-          <Competency
-            description="Worked with the product team to implement a full site re-design" />
-          <Competency
-            description="Conducted numerous interviews to better understand application user delight and frustration" />
+            description="Built the full stack (HTML5/CSS/JS, Python, MongoDB) and deployed to production multiple times daily from day one" />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -202,7 +195,7 @@
         <PositionHistory>
           <Title>Principal Software Engineer</Title>
           <OrgName>
-            <OrganizationName>Software Group</OrganizationName>
+            <OrganizationName />
           </OrgName>
           <Description>
             Lead developer for the student delivery module of IBM's J2EE eLearning
@@ -241,7 +234,7 @@
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
-        <EmployerOrgName>Macromedia, Inc.</EmployerOrgName>
+        <EmployerOrgName>Macromedia</EmployerOrgName>
         <EmployerContactInfo>
           <ContactMethod>
             <PostalAddress>
@@ -258,7 +251,7 @@
         <PositionHistory>
           <Title>Sr. Software Engineer</Title>
           <OrgName>
-            <OrganizationName>eLearning Solutions</OrganizationName>
+            <OrganizationName />
           </OrgName>
           <Description>
             Ported the eLearning system, developed at Solis, to a Java/ASP web
@@ -286,7 +279,7 @@
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
-        <EmployerOrgName>Solis Design, Inc.</EmployerOrgName>
+        <EmployerOrgName>Solis Design</EmployerOrgName>
         <EmployerContactInfo>
           <ContactMethod>
             <PostalAddress>
@@ -326,7 +319,7 @@
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
-        <EmployerOrgName>World Class Promotions, Inc.</EmployerOrgName>
+        <EmployerOrgName>World Class Promotions</EmployerOrgName>
         <EmployerContactInfo>
           <ContactMethod>
             <PostalAddress>
@@ -365,7 +358,7 @@
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
-        <EmployerOrgName>IBANK Systems, Inc.</EmployerOrgName>
+        <EmployerOrgName>IBANK Systems</EmployerOrgName>
         <EmployerContactInfo>
           <ContactMethod>
             <PostalAddress>
@@ -642,24 +635,16 @@
       </Competency>
       <Competency name="Languages">
         <Competency name="TypeScript" />
-        <Competency name="HTML" />
-        <Competency name="CSS" />
+        <Competency name="HTML/CSS" />
         <Competency name="Python" />
         <Competency name="Java" />
         <Competency name="SQL" />
       </Competency>
-      <Competency name="Project Management">
-        <Competency name="JIRA" />
-        <Competency name="PivotalTracker" />
-      </Competency>
-      <Competency name="Design Tools">
-        <Competency name="Figma" />
-        <Competency name="Sketch" />
-      </Competency>
-      <Competency name="Development Tools">
-        <Competency name="git" />
-        <Competency name="vim" />
-        <Competency name="terminal" />
+      <Competency name="AI Tooling">
+        <Competency name="Claude" />
+        <Competency name="Copilot" />
+        <Competency name="Storybook MCP" />
+        <Competency name="Figma Make" />
       </Competency>
     </Qualifications>
     <Associations>
@@ -705,6 +690,6 @@
         </Comments>
       </Association>
     </Associations>
-    <RevisionDate>2017-03-05</RevisionDate>
+    <RevisionDate>2026-06-22</RevisionDate>
   </StructuredXMLResume>
 </Resume>

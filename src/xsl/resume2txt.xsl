@@ -8,8 +8,8 @@
     <xsl:apply-templates select="resume:ContactInfo" />
     <xsl:text>&#xA;</xsl:text>
     <xsl:apply-templates select="resume:ExecutiveSummary" />
-    <xsl:apply-templates select="resume:Qualifications" />
     <xsl:apply-templates select="resume:EmploymentHistory" />
+    <xsl:apply-templates select="resume:Qualifications" />
     <xsl:apply-templates select="resume:ContactInfo" />
   </xsl:template>
   <xsl:template match="resume:Associations">
@@ -112,7 +112,7 @@
   </xsl:template>
   <xsl:template match="resume:EmploymentHistory">
     <xsl:call-template name="getHeading">
-      <xsl:with-param name="text" select="'PROFESSIONAL EXPERIENCE'" />
+      <xsl:with-param name="text" select="'EXPERIENCE'" />
     </xsl:call-template>
     <xsl:for-each select="resume:EmployerOrg">
       <xsl:text>@&#x20;</xsl:text>
@@ -249,7 +249,7 @@
   </xsl:template>
   <xsl:template match="resume:Qualifications">
     <xsl:call-template name="getHeading">
-      <xsl:with-param name="text" select="'EXPERTISE'" />
+      <xsl:with-param name="text" select="'SKILLS'" />
     </xsl:call-template>
     <xsl:for-each select="resume:Competency">
       <xsl:call-template name="wrapText">
