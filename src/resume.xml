@@ -26,14 +26,11 @@
       </ContactMethod>
     </ContactInfo>
     <ExecutiveSummary>
-      Design systems leader with 10+ years building scalable component
-      platforms. I created and grew Zendesk Garden from zero to 95%+ UI adoption
-      across the product suite, architected a federated contribution model
-      spanning dozens of distributed teams, and shipped the component set that
-      became the foundational UI layer for Zendesk's generative AI app builder.
-      I bring deep expertise in component architecture, design-to-engineering
-      workflows, accessibility, and the organizational strategy required to make
-      a design system stick.
+      Senior Principal Engineer with 30 years of experience, specializing in
+      enterprise design systems. Founding architect of Zendesk Garden, scaling
+      it to 95%+ UI adoption. Expert at aligning cross-functional teams around
+      shared technical standards, WCAG 2.2 AA compliance, federated
+      contribution, and generative AI interfaces.
     </ExecutiveSummary>
     <Comments>
     </Comments>
@@ -62,22 +59,10 @@
               <OrganizationName />
             </OrgName>
             <Description>
-              Created the Zendesk Garden design system as a dedicated advocate
-              for user experience. This comprehensive system helps teams deliver
-              exceptional digital experiences. My focus on collaboration and
-              innovation led to a design system that streamlines workflows and
-              enhances product consistency and accessibility. Through careful
-              research and user testing, I led a team to build a strong library
-              of components and guidelines that promote best practices in UI/UX
-              design. I worked closely with product managers, designers, and
-              engineers to gather feedback and continuously improve the system.
-              The result is a scalable, user-friendly design system that has
-              greatly increased development efficiency and user satisfaction
-              across all Zendesk products. My contributions fostered a culture
-              of design thinking within the organization, making a lasting
-              impact on Zendesk's product development approach. Leveraging
-              Garden, I personally delivered the component set that informed
-              Zendesk's 2026 unified navigation across eight products.
+              Founding architect of Garden, Zendesk's open-source design system
+              (Figma + React), establishing the technical foundation and
+              organizational strategy to drive UI consistency and velocity across
+              the enterprise.
             </Description>
             <StartDate>
               <YearMonth>2014-04</YearMonth>
@@ -86,17 +71,13 @@
               <YearMonth>2026-03</YearMonth>
             </EndDate>
             <Competency
-              description="Created Garden, Zendesk's open source design system (Figma + React), from scratch — now the source of truth for UI standards across all products" />
+              description="Technical Leadership &amp; Scale: Architected a federated contribution model scaling Garden to 95%+ of all UI interactions across dozens of globally distributed engineering teams." />
             <Competency
-              description="Scaled Garden into the foundational UI layer for Zendesk's generative AI app builder — fueling a new product line powered by AI-generated interfaces" />
+              description="Generative AI App Architecture: Scaled the core design system into the foundational UI layer for Zendesk's generative AI app builder, powering a new product line driven by AI-generated interfaces." />
             <Competency
-              description="Built and led a cross-functional team of engineers and designers maintaining zero-regression core libraries" />
+              description="Core Ecosystem Delivery: Directed technical strategy and component delivery for Zendesk's 2026 unified navigation overhaul, seamlessly unifying eight distinct product lines." />
             <Competency
-              description="Architected a federated contribution model that scaled Garden to 95%+ of all UI interactions across dozens of globally distributed teams" />
-            <Competency
-              description="Spearheaded Zendesk's accessibility initiative, embedding WCAG 2.2 AA compliance into the primitive component layer" />
-            <Competency
-              description="Delivered the component set that powered Zendesk's 2026 unified navigation across eight products" />
+              description="Governance &amp; Accessibility: Led a cross-functional team maintaining zero-regression UI libraries and spearheaded initiatives embedding strict WCAG 2.2 AA compliance into primitive layers." />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -119,11 +100,6 @@
           <OrgName>
             <OrganizationName />
           </OrgName>
-          <Description>
-            Worked with a crack startup team in the fashion space where I obsessed over
-            the design and construction of beautiful, pixel-perfect service APIs and
-            elegant, opinionated web and mobile UIs.
-          </Description>
           <StartDate>
             <YearMonth>2012-08</YearMonth>
           </StartDate>
@@ -131,11 +107,11 @@
             <YearMonth>2014-04</YearMonth>
           </EndDate>
           <Competency
-            description="Built the full mobile web experience (jQM) and led a major e-commerce redesign for a fashion startup" />
+            description="Architecture &amp; Redesign: Led a major e-commerce web and mobile redesign for a fashion startup to enhance customer acquisition and UX layout." />
           <Competency
-            description="Shifted the team from manual deploys to continuous deployment" />
+            description="DevOps Modernization: Engineered the transition from manual deployment workflows to a fully automated continuous deployment (CI/CD) pipeline." />
           <Competency
-            description="Authored open-source Stamps.com and FedEx shipping APIs for order fulfillment" />
+            description="Integration Infrastructure: Authored robust, open-source integration APIs for Stamps.com and FedEx to optimize core fulfillment logistics." />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -158,13 +134,6 @@
           <OrgName>
             <OrganizationName />
           </OrgName>
-          <Description>
-            Responsible for the inception of an internet-scale, social application
-            designed to modernize clinical trials - helping people use information about
-            their DNA to answer health questions. Successfully combined lean startup
-            techniques with agile development practices inside a swift moving, "fail fast"
-            entrepreneurial environment.
-          </Description>
           <StartDate>
             <YearMonth>2010-02</YearMonth>
           </StartDate>
@@ -172,9 +141,9 @@
             <YearMonth>2012-08</YearMonth>
           </EndDate>
           <Competency
-            description="Architected an internet-scale social platform modernizing clinical trials using DNA-based health data" />
+            description="Platform Architecture: Conceptualized and built an internet-scale social platform designed to modernize clinical trials utilizing DNA-based health data." />
           <Competency
-            description="Built the full stack (HTML5/CSS/JS, Python, MongoDB) and deployed to production multiple times daily from day one" />
+            description="Full-Stack Execution: Architected the complete technical stack, implementing a continuous delivery culture that safely deployed to production multiple times daily." />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -198,16 +167,11 @@
             <OrganizationName />
           </OrgName>
           <Description>
-            Lead developer for the student delivery module of IBM's J2EE eLearning
-            application. Responsible for designing, prototyping, developing, and testing
-            component solutions that contribute to the overall eLearning product
-            architecture. Recognized as a subject matter expert in eLearning development
-            and frequently called on to assist in determining the product direction.
-            Repeatedly demonstrating success in directing a engineering teams to achieve
-            milestone goals - providing core functionality at every application tier.
-            Valued for meticulous attention to the usability, scalability, and
-            performance demands imposed by enterprise software that must cater to
-            thousands of concurrent users.
+            Lead developer on enterprise eLearning platform. Contributing
+            member of AICC, ADL, and IMS standards bodies. Co-inventor on 5
+            patents in eLearning sequencing, tracking, and distributed learning
+            architecture. Led globally distributed teams across Boston and
+            Ireland.
           </Description>
           <StartDate>
             <YearMonth>1999-09</YearMonth>
@@ -215,22 +179,6 @@
           <EndDate>
             <YearMonth>2010-02</YearMonth>
           </EndDate>
-          <Competency
-            description="Designed and built a delivery subsystem that encapsulated strict conformance requirements for key eLearning standards" />
-          <Competency
-            description="Contributing member in AICC, ADL, and IMS eLearning standards bodies" />
-          <Competency
-            description="Recognized as an industry authority for learner run-time progress and interaction tracking implementations" />
-          <Competency
-            description="Well-versed in the application of GoF Design and Core J2EE Pattern strategies to the problems inherent in web-based architectures" />
-          <Competency
-            description="Shipped three major product releases along with numerous maintenance releases" />
-          <Competency
-            description="Developed business and presentation tier reference components, used as the foundational patterns for all components developed for the application" />
-          <Competency
-            description="Worked with globally distributed development teams to ship application solutions designed to be localized for nearly thirty languages" />
-          <Competency
-            description="Lead, mentored, and contributed to remote development teams based in both Boston and Ireland" />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -254,10 +202,9 @@
             <OrganizationName />
           </OrgName>
           <Description>
-            Ported the eLearning system, developed at Solis, to a Java/ASP web
-            application. Served as an application developer across several project
-            teams. Repeatedly recognized as a key contributor. Selected as one of three
-            engineers to transition with the project acquisition to IBM.
+            Ported the eLearning system, developed at Solis, to a Java web
+            application. One of three engineers selected to transition with the
+            project acquisition to IBM.
           </Description>
           <StartDate>
             <YearMonth>1997-10</YearMonth>
@@ -265,17 +212,6 @@
           <EndDate>
             <YearMonth>1999-09</YearMonth>
           </EndDate>
-          <Competency description="Designed and developed Java-based business objects" />
-          <Competency description="Demonstrated RDBMS schema design and SQL expertise" />
-          <Competency
-            description="Engineered a course outline assembly module for the eLearning management system" />
-          <Competency
-            description="Prototyped an assessment engine designed to model standard pedagogical testing patterns" />
-          <Competency
-            description="Modeled and developed APIs for a sophisticated event-based product extension infrastructure" />
-          <Competency description="Deployed web applications in an IIS/ASP environment" />
-          <Competency
-            description="Collected and authored definitive coding standards used by the eLearning development group" />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -311,11 +247,6 @@
           <EndDate>
             <YearMonth>1997-10</YearMonth>
           </EndDate>
-          <Competency description="Automated desktop to server database conversions" />
-          <Competency
-            description="Designed and authored both LAN and web-based product installation scripts" />
-          <Competency
-            description="Provided on-site customer deployment and training" />
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
@@ -627,20 +558,27 @@
       </OtherPublication>
     </PublicationHistory>
     <Qualifications>
-      <Competency name="Technologies">
+      <Competency name="Design Systems &amp; Frontend Architecture">
         <Competency name="React" />
+        <Competency name="Design Tokens" />
         <Competency name="Vite" />
         <Competency name="Storybook" />
         <Competency name="Tailwind CSS" />
       </Competency>
-      <Competency name="Languages">
+      <Competency name="Languages &amp; Ecosystems">
         <Competency name="TypeScript" />
+        <Competency name="JavaScript" />
         <Competency name="HTML/CSS" />
+        <Competency name="Node.js" />
         <Competency name="Python" />
-        <Competency name="Java" />
         <Competency name="SQL" />
       </Competency>
-      <Competency name="AI Tooling">
+      <Competency name="Accessibility &amp; Standards">
+        <Competency name="WCAG 2.2 AA" />
+        <Competency name="Semantic HTML" />
+        <Competency name="Screenreader Optimization" />
+      </Competency>
+      <Competency name="AI &amp; Productivity Tooling">
         <Competency name="Claude" />
         <Competency name="Copilot" />
         <Competency name="Storybook MCP" />

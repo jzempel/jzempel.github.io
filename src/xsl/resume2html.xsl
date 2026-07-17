@@ -122,21 +122,23 @@
     <div class="section">
       <p class="sectionTitle">Experience</p>
       <xsl:for-each select="resume:EmployerOrg">
-        <div class="subSection">
-          <p class="subSectionTitle">
-            <xsl:call-template name="getDateRange">
-              <xsl:with-param name="startDate"
-                select="resume:PositionHistory/resume:StartDate/resume:YearMonth" />
-              <xsl:with-param name="endDate"
-                select="resume:PositionHistory/resume:EndDate/resume:YearMonth" />
-            </xsl:call-template>
-            <span class="subTitleHighlight">
-              <xsl:value-of select="resume:EmployerOrgName" />
-            </span>
-            <xsl:apply-templates select="resume:EmployerContactInfo" />
-          </p>
-          <xsl:apply-templates select="resume:PositionHistory" />
-        </div>
+        <xsl:if test="position() &lt;= 6">
+          <div class="subSection">
+            <p class="subSectionTitle">
+              <xsl:call-template name="getDateRange">
+                <xsl:with-param name="startDate"
+                  select="resume:PositionHistory/resume:StartDate/resume:YearMonth" />
+                <xsl:with-param name="endDate"
+                  select="resume:PositionHistory/resume:EndDate/resume:YearMonth" />
+              </xsl:call-template>
+              <span class="subTitleHighlight">
+                <xsl:value-of select="resume:EmployerOrgName" />
+              </span>
+              <xsl:apply-templates select="resume:EmployerContactInfo" />
+            </p>
+            <xsl:apply-templates select="resume:PositionHistory" />
+          </div>
+        </xsl:if>
       </xsl:for-each>
     </div>
   </xsl:template>
@@ -211,6 +213,7 @@
       <xsl:apply-templates select="resume:OrgName" />
     </p>
     <div class="subSubSection">
+      <xsl:value-of select="resume:Description" />
       <ul class="competencies">
         <xsl:for-each select="resume:Competency">
           <li>
